@@ -1,0 +1,27 @@
+2017-09-08 14:25:21,312  INFO SendPage:23 - elem = Кому: customercare (2)
+2017-09-08 14:27:54,696  INFO SendPage:23 - elem = TEST
+2017-09-08 14:31:07,987  INFO SendPage:23 - elem = TEST
+2017-09-08 14:39:14,054  INFO SendPage:30 - elem = Вхідні
+ 
+2017-09-08 14:42:38,265  INFO SendPage:31 - elem = Вхідні
+ 
+2017-09-08 14:50:37,164  INFO SendPage:30 - elem = Вхідні
+ 
+2017-09-08 15:05:45,899  INFO SendPage:30 - elem = TEST
+2017-09-08 15:07:23,349  INFO SendPage:30 - elem = TEST
+2017-09-08 15:07:23,720  INFO SendPage:30 - elem = TEST
+2017-09-08 15:08:39,585  INFO SendPage:33 - elem = TEST
+2017-09-08 15:10:33,462  INFO SendPage:33 - elem = TEST
+2017-09-08 15:17:33,398  INFO SendPage:33 - elem = TEST
+2017-09-08 15:20:02,425  INFO SendPage:33 - elem = TEST
+2017-09-08 15:41:17,395  INFO SendPage:33 - elem = TEST
+2017-09-08 15:55:02,995  INFO SendPage:32 - elem = TEST
+2017-09-08 15:55:36,191  INFO SendPage:32 - elem = TEST
+2017-09-08 15:56:43,783  INFO SendPage:32 - elem = TEST
+2017-09-08 15:58:17,756  INFO SendPage:32 - elem = TEST
+2017-09-08 16:00:46,811  INFO SendPage:32 - elem = TEST
+2017-09-08 16:01:22,659  INFO SendPage:32 - elem = TEST
+2017-09-08 16:03:47,106  INFO SendPage:32 - elem = TEST
+2017-09-08 16:04:15,516  INFO SendPage:32 - elem = TEST
+2017-09-08 16:04:44,113  INFO SendPage:32 - elem = TEST
+2017-09-08 22:14:11,878  INFO SendPage:32 - elem = TEST
