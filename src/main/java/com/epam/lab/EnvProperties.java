@@ -31,7 +31,10 @@ public class EnvProperties {
     public String getDriverPath() {
         return properties.getProperty("driverPath");
     }
-    public String getXMLPath() {
+    public String getXMLPathForUsers() {
         return properties.getProperty("xmlDataPath");
+    }
+    public String getXMLPathForMessages() {
+        return properties.getProperty("xmlDataPathMessages");
     }
 }
