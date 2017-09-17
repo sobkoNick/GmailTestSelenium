@@ -12,7 +12,7 @@ import org.openqa.selenium.support.pagefactory.DefaultElementLocatorFactory;
 public class PageObject {
     private WebDriver driver;
     public PageObject() {
-        driver = DriverSingleton.getWebDriver();
+        driver = DriverSingleton.getInstance();
         driver.manage().window().maximize();
         PageFactory.initElements( new MyFieldDecorator(new DefaultElementLocatorFactory(driver)), this);
     }

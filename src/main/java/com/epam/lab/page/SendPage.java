@@ -19,7 +19,7 @@ public class SendPage extends PageObject {
     @FindBy(xpath = "//*[@class=\"xS\"]/div/div[2]")
     private Label subjectElement;
 
-    @FindBy(xpath = "//*[@id=\":l4\"]")
+    @FindBy(xpath = "/html/body/div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div/div/div[2]/div[3]/div[1]/div/table/tbody/tr[1]/td[2]/div")
     private CheckBox mailCheckBox;
 
     @FindBy(xpath = "//*[@class=\"aeH\"]/div[2]/div[1]/div[1]/div/div/div[2]/div[3]/div")
@@ -45,6 +45,11 @@ public class SendPage extends PageObject {
     public PageObject removeMessage(String subject) {
         mailCheckBox.clickOnCheckField();
         deleteMessageBtn.click();
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         okBtn.click();
         return this;
     }

@@ -29,7 +29,7 @@ public class GmailTest {
 
     @BeforeClass
     public void setUp() throws IOException, SAXException, ParserConfigurationException {
-        webDriver = DriverSingleton.getWebDriver();
+        webDriver = DriverSingleton.getInstance();
         envProperties = new EnvProperties();
         domParser = new DOMParser();
         users = domParser.getUserData(envProperties.getXMLPath());
@@ -43,6 +43,7 @@ public class GmailTest {
         MessageBO messageBO = new MessageBO();
         Assert.assertTrue(messageBO.writeMessage(user).contains("надіслано"));
         Assert.assertTrue(messageBO.verifyMessage(user).contains("Ланцюжок повідомлень перенесено в \"Кошик\""));
+        webDriver.quit();
     }
 
 /*
@@ -102,7 +103,7 @@ public class GmailTest {
 */
     @AfterClass
     public void release() {
-        webDriver.quit();
+//        webDriver.quit();
         webDriver = null;
         envProperties = null;
         domParser = null;
