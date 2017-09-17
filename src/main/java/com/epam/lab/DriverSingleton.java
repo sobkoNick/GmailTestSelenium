@@ -14,9 +14,7 @@ public class DriverSingleton {
     }
 
     public static WebDriver getInstance() {
-
         if (webDriverThreadLocal.get() != null) {
-
             return webDriverThreadLocal.get();
         }
 

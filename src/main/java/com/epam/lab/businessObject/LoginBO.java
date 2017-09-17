@@ -10,10 +10,6 @@ import org.openqa.selenium.WebDriver;
  */
 public class LoginBO {
     private EnvProperties envProperties = new EnvProperties();
-    private WebDriver driver;
-    public LoginBO(WebDriver webDriver) {
-        driver = webDriver;
-    }
 
     public String login(UserAndMessageDetails user) {
         StartPage startPage = new StartPage();

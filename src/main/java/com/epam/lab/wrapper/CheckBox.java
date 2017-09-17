@@ -19,6 +19,7 @@ public class CheckBox extends Element {
             webElement.click();
         }
     }
+
     public void clickOnCheckField() {
         webElement.click();
     }
