@@ -44,8 +44,8 @@ public class WriteLetterPage extends  PageObject {
         return getDriver().findElement(By.xpath("/html/body/div[7]/div[3]/div/div[1]/div[5]/div[1]/div/div[3]/div/div/div[2]")).getAttribute("innerHTML");
     }
 
-    public PageObject clickSendHref() {
-        getDriver().get("https://mail.google.com/mail/u/0/#sent");
+    public PageObject clickSendHref(String sendURL) {
+        getDriver().get(sendURL);
         return new SendPage();
     }
 }

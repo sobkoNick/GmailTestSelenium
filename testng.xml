@@ -3,16 +3,19 @@
         <classes>
             <class name="com.epam.lab.test.GmailTest">
                 <methods>
-                    <include name="goToLogin"/>
-                    <include name="inputMailTest"/>
-                    <include name="inputPasswordTest"/>
-                    <include name="composeTest"/>
-                    <include name="writeLetterTest"/>
-                    <include name="sendMessageTest"/>
-                    <include name="goToSendPageTest"/>
-                    <include name="verifyMessageTest"/>
-                    <include name="removeMessageTest"/>
+                    <include name="writeAndDeleteMessageGmail_ValidEmailAndPasswordGiven_ShouldPassTheTest" thread-count="3"></include>
                 </methods>
+                <!--<methods>-->
+                    <!--<include name="goToLogin"/>-->
+                    <!--<include name="inputMailTest"/>-->
+                    <!--<include name="inputPasswordTest"/>-->
+                    <!--<include name="composeTest"/>-->
+                    <!--<include name="writeLetterTest"/>-->
+                    <!--<include name="sendMessageTest"/>-->
+                    <!--<include name="goToSendPageTest"/>-->
+                    <!--<include name="verifyMessageTest"/>-->
+                    <!--<include name="removeMessageTest"/>-->
+                <!--</methods>-->
             </class>
         </classes>
     </test>

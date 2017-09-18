@@ -7,6 +7,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 /**
  *
@@ -24,6 +26,16 @@ public class GmailInputPasswPage extends PageObject {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+
+        WebDriverWait waitForOne = new WebDriverWait(getDriver(), 10);
+        waitForOne.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id=\"password\"]/div[1]/div/div[1]/input")));
+
+        WebDriverWait waitForOne2 = new WebDriverWait(getDriver(), 10);
+        waitForOne2.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"password\"]/div[1]/div/div[1]/input")));
+
+        WebDriverWait waitForOne3 = new WebDriverWait(getDriver(), 10);
+        waitForOne3.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"password\"]/div[1]/div/div[1]/input")));
+
         passwordInput.setText(password);
         nextBtn.click();
         return new WriteLetterPage();

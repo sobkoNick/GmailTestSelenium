@@ -32,9 +32,12 @@ public class EnvProperties {
         return properties.getProperty("driverPath");
     }
     public String getXMLPathForUsers() {
-        return properties.getProperty("xmlDataPath");
+        return properties.getProperty("xmlDataPathUser");
     }
     public String getXMLPathForMessages() {
         return properties.getProperty("xmlDataPathMessages");
+    }
+    public String getSendUrl() {
+        return properties.getProperty("sendHref");
     }
 }
