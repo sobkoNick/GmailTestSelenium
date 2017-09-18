@@ -17,11 +17,11 @@ public class MyFieldDecorator extends DefaultFieldDecorator {
 
     @Override
     public Object decorate(ClassLoader loader, Field field) {
-//        System.out.println();
+        // decorates default WebElement
         if (WebElement.class.isAssignableFrom(field.getType())) {
             return super.decorate(loader, field);
         }
-
+        // decorates wrappers
         else {
             if (Button.class.isAssignableFrom(field.getType())) {
                 ElementLocator locator = factory.createLocator(field);
@@ -43,7 +43,6 @@ public class MyFieldDecorator extends DefaultFieldDecorator {
                 return checkBox;
             }
         }
-
         return null;
     }
 }

@@ -1,8 +1,12 @@
 package com.epam.lab.test;
 
-import com.epam.lab.*;
 import com.epam.lab.businessObject.LoginBO;
 import com.epam.lab.businessObject.MessageBO;
+import com.epam.lab.model.Message;
+import com.epam.lab.model.User;
+import com.epam.lab.util.DOMParser;
+import com.epam.lab.util.DriverSingleton;
+import com.epam.lab.util.EnvProperties;
 import org.testng.Assert;
 import org.testng.annotations.*;
 import org.xml.sax.SAXException;
@@ -20,18 +24,15 @@ public class GmailTest {
     private List<User> users;
     private List<Message> messages;
 
-    /*
-    set ups test enviroment
-     */
     @BeforeClass
     public void setUp() throws IOException, SAXException, ParserConfigurationException {
         envProperties = new EnvProperties();
         domParser = new DOMParser();
         users = domParser.getUserData(envProperties.getXMLPathForUsers());
-        messages= domParser.getMessageData(envProperties.getXMLPathForMessages());
+        messages = domParser.getMessageData(envProperties.getXMLPathForMessages());
     }
 
-    @Test(dataProvider = "userData")
+    @Test(dataProvider = "data")
     public void writeAndDeleteMessageGmail_ValidEmailAndPasswordGiven_ShouldPassTheTest(User user, Message message) {
         LoginBO loginBO = new LoginBO();
         Assert.assertTrue(loginBO.login(user).contains(user.getLogin()));
@@ -41,10 +42,10 @@ public class GmailTest {
         Assert.assertTrue(messageBO.verifyDeletingMessage(message).contains("Ланцюжок повідомлень перенесено в \"Кошик\""));
     }
 
-    @DataProvider(name = "userData", parallel = true)
+    @DataProvider(name = "data", parallel = true)
     public Object[][] getData() throws IOException, SAXException, ParserConfigurationException {
-        Object data [][] = new Object[users.size()][2];
-        for (int i = 0; i < users.size();i++) {
+        Object data[][] = new Object[users.size()][2];
+        for (int i = 0; i < users.size(); i++) {
             data[i][0] = users.get(i);
             data[i][1] = messages.get(i);
         }
@@ -56,4 +57,11 @@ public class GmailTest {
         DriverSingleton.quit();
     }
 
+    @AfterClass
+    public void release() {
+        envProperties = null;
+        users = null;
+        messages = null;
+        domParser = null;
+    }
 }

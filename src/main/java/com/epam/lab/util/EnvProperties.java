@@ -1,4 +1,4 @@
-package com.epam.lab;
+package com.epam.lab.util;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 /**
- *
+ * Get data from data.properties (url, driver data, paths to xmls)
  */
 public class EnvProperties {
     private Properties properties;
@@ -40,4 +40,11 @@ public class EnvProperties {
     public String getSendUrl() {
         return properties.getProperty("sendHref");
     }
+
+//    public String getMessageSendingVerifyingText() {
+//        return properties.getProperty("textSendVerifying");
+//    }
+//    public String getMessageDeletingVerifyingText() {
+//        return properties.getProperty("textDeleteVerifying");
+//    }
 }

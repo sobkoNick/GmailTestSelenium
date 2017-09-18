@@ -1,4 +1,4 @@
-package com.epam.lab;
+package com.epam.lab.model;
 
 /**
  *

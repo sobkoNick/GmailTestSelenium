@@ -1,5 +1,7 @@
-package com.epam.lab;
+package com.epam.lab.util;
 
+import com.epam.lab.model.Message;
+import com.epam.lab.model.User;
 import org.apache.log4j.Logger;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -20,10 +22,12 @@ import java.util.List;
  */
 public class DOMParser {
     static final Logger LOGGER = Logger.getLogger(DOMParser.class);
-    public List<User> getUserData(String path) throws ParserConfigurationException, IOException, SAXException {
+
+    // parses users from xml. returns list of Users
+    public List<User> getUserData(String pathToUserXML) throws ParserConfigurationException, IOException, SAXException {
         List<User> users = new ArrayList<User>();
         LOGGER.info("DOM parser starts");
-        File fileXML = new File(path);
+        File fileXML = new File(pathToUserXML);
         DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
         DocumentBuilder dBuilder = documentBuilderFactory.newDocumentBuilder();
         Document doc = dBuilder.parse(fileXML);
@@ -50,10 +54,11 @@ public class DOMParser {
         return user;
     }
 
-    public List<Message> getMessageData(String path) throws ParserConfigurationException, IOException, SAXException {
+    // parses message data from xml. Returns data list.
+    public List<Message> getMessageData(String pathToMessageXML) throws ParserConfigurationException, IOException, SAXException {
         List<Message> messages = new ArrayList<Message>();
         LOGGER.info("DOM parser starts");
-        File fileXML = new File(path);
+        File fileXML = new File(pathToMessageXML);
         DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
         DocumentBuilder dBuilder = documentBuilderFactory.newDocumentBuilder();
         Document doc = dBuilder.parse(fileXML);
@@ -71,6 +76,7 @@ public class DOMParser {
         LOGGER.info("DOM parser ends");
         return messages;
     }
+
     private static Message getMessage(Element node) {
         Message message = new Message();
         Element element = node;

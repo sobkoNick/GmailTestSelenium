@@ -6,6 +6,8 @@ import com.epam.lab.wrapper.Label;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 /**
  *
@@ -25,12 +27,10 @@ public class SendPage extends PageObject {
     @FindBy(xpath = "//button[@name=\"ok\"]")
     private Button okDeleteBtn;
 
-    public PageObject verifyInSendPage(String subject) {
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+    public PageObject verifyMessageInSendPage(String subject) {
+        WebDriverWait waitForSubjectText = new WebDriverWait(getDriver(), 2);
+        waitForSubjectText.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@class=\"xS\"]/div/div[2]")));
+
         LOGGER.info("elem = " + subjectElement.getText());
         if (subjectElement.getText().toLowerCase().contains(subject.toLowerCase())) {
             return this;
@@ -39,25 +39,23 @@ public class SendPage extends PageObject {
         }
     }
 
-    public PageObject removeMessage() {
+    public PageObject removeMessageFromSend() {
         mailCheckBox.clickOnCheckField();
         deleteMessageBtn.click();
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+
+        WebDriverWait waitForDeleteBtn = new WebDriverWait(getDriver(), 2);
+        waitForDeleteBtn.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[@name=\"ok\"]")));
+
         okDeleteBtn.click();
         return this;
     }
 
-    public String verifyDeleteMessageApear() {
-//        try {
-            return getDriver().findElement(
-                    By.xpath("/html/body/div[7]/div[3]/div/div[1]/div[5]/div[1]/div/div[3]/div/div/div[2]")).getText();
-//        } finally {
-////            getDriver().quit();
-//        }
+    public String verifyMessageDeleting() {
+        String xpathExpression = "/html/body/div[7]/div[3]/div/div[1]/div[5]/div[1]/div/div[3]/div/div/div[2]";
+        WebDriverWait waitForDeletePopUpMessage = new WebDriverWait(getDriver(), 2);
+        waitForDeletePopUpMessage.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpathExpression)));
+        return getDriver().findElement(
+                    By.xpath(xpathExpression)).getText();
     }
 }
 

@@ -7,11 +7,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 /**
  *
  */
-public class WriteLetterPage extends  PageObject {
+public class WriteLetterPage extends PageObject {
     @FindBy(css = "textarea.vO")
     private Input sendToInput;
     @FindBy(css = "input.aoT")
@@ -26,25 +28,24 @@ public class WriteLetterPage extends  PageObject {
         return this;
     }
 
-    public PageObject writeLetter(String receiver, String subject, String message) {
+    public PageObject writeAndSendLetter(String receiver, String subject, String message) {
+        WebDriverWait waitForElement = new WebDriverWait(getDriver(), 2);
+        waitForElement.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div.Am.Al.editable.LW-avf")));
         sendToInput.setText(receiver);
         subjectInput.setText(subject);
         messageInput.setText(message);
+        sendBtn.click();
         return this;
     }
 
-    public String sendLetter() {
-        sendBtn.click();
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-//        System.out.println("mes = " + getDriver().findElement(By.xpath("/html/body/div[7]/div[3]/div/div[1]/div[5]/div[1]/div/div[3]/div/div/div[2]")).getAttribute("innerHTML"));
-        return getDriver().findElement(By.xpath("/html/body/div[7]/div[3]/div/div[1]/div[5]/div[1]/div/div[3]/div/div/div[2]")).getAttribute("innerHTML");
+    public String verifyLetterSending() {
+        String elementPath = "/html/body/div[7]/div[3]/div/div[1]/div[5]/div[1]/div/div[3]/div/div/div[2]";
+        WebDriverWait waitForElement = new WebDriverWait(getDriver(), 2);
+        waitForElement.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(elementPath)));
+        return getDriver().findElement(By.xpath(elementPath)).getAttribute("innerHTML");
     }
 
-    public PageObject clickSendHref(String sendURL) {
+    public PageObject goToSendPage(String sendURL) {
         getDriver().get(sendURL);
         return new SendPage();
     }
