@@ -24,7 +24,7 @@ public class MessageBO {
     public String verifyDeletingMessage(Message message) {
         SendPage sendPage = new SendPage();
         sendPage.verifyInSendPage(message.getSubject());
-        sendPage.removeMessage(message.getSubject());
+        sendPage.removeMessage();
         return sendPage.verifyDeleteMessageApear();
     }
 }

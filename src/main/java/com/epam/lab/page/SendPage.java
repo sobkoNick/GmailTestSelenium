@@ -39,7 +39,7 @@ public class SendPage extends PageObject {
         }
     }
 
-    public PageObject removeMessage(String subject) {
+    public PageObject removeMessage() {
         mailCheckBox.clickOnCheckField();
         deleteMessageBtn.click();
         try {
@@ -52,12 +52,12 @@ public class SendPage extends PageObject {
     }
 
     public String verifyDeleteMessageApear() {
-        try {
+//        try {
             return getDriver().findElement(
                     By.xpath("/html/body/div[7]/div[3]/div/div[1]/div[5]/div[1]/div/div[3]/div/div/div[2]")).getText();
-        } finally {
-            getDriver().quit();
-        }
+//        } finally {
+////            getDriver().quit();
+//        }
     }
 }
 

@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.util.List;
 
 /**
- *
+ * Test class
  */
 public class GmailTest {
     private EnvProperties envProperties;
@@ -20,6 +20,9 @@ public class GmailTest {
     private List<User> users;
     private List<Message> messages;
 
+    /*
+    set ups test enviroment
+     */
     @BeforeClass
     public void setUp() throws IOException, SAXException, ParserConfigurationException {
         envProperties = new EnvProperties();
@@ -39,24 +42,18 @@ public class GmailTest {
     }
 
     @DataProvider(name = "userData", parallel = true)
-    public Object[][] getData() {
+    public Object[][] getData() throws IOException, SAXException, ParserConfigurationException {
         Object data [][] = new Object[users.size()][2];
         for (int i = 0; i < users.size();i++) {
             data[i][0] = users.get(i);
             data[i][1] = messages.get(i);
         }
         return data;
-//        return new Object[][] { { users.get(0), messages.get(0) } , { users.get(1), messages.get(1) }, { users.get(2), messages.get(2) } , { users.get(3), messages.get(3) }};
     }
-//    @AfterMethod
-//    public void tearDown() {
-//        DriverSingleton.getInstance().quit();
-//    }
 
-    @AfterClass
-    public void release() {
-//        DriverSingleton.nullDriver();
-        envProperties = null;
-        domParser = null;
+    @AfterMethod
+    public void tearDown() {
+        DriverSingleton.quit();
     }
+
 }
