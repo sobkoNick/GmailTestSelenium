@@ -23,6 +23,9 @@ public class GmailTest {
     private DOMParser domParser;
     private List<User> users;
     private List<Message> messages;
+    private final int attributeCount = 2; // count of attributes that will be passed to test by dataProvider
+    private final String sendMessageText = "надіслано";
+    private final String deleteMessageText = "Ланцюжок повідомлень перенесено в \"Кошик\"";
 
     @BeforeClass
     public void setUp() throws IOException, SAXException, ParserConfigurationException {
@@ -38,18 +41,18 @@ public class GmailTest {
         Assert.assertTrue(loginBO.login(user).contains(user.getLogin()));
         MessageBO messageBO = new MessageBO();
         messageBO.writeMessage(message);
-        Assert.assertTrue(messageBO.verifySendingMessage().contains("надіслано"));
-        Assert.assertTrue(messageBO.verifyDeletingMessage(message).contains("Ланцюжок повідомлень перенесено в \"Кошик\""));
+        Assert.assertTrue(messageBO.verifySendingMessage().contains(sendMessageText));
+        Assert.assertTrue(messageBO.verifyDeletingMessage(message).contains(deleteMessageText));
     }
 
     @DataProvider(name = "data", parallel = true)
     public Object[][] getData() throws IOException, SAXException, ParserConfigurationException {
-        Object data[][] = new Object[users.size()][2];
+        Object dataForTest[][] = new Object[users.size()][attributeCount];
         for (int i = 0; i < users.size(); i++) {
-            data[i][0] = users.get(i);
-            data[i][1] = messages.get(i);
+            dataForTest[i][0] = users.get(i);
+            dataForTest[i][1] = messages.get(i);
         }
-        return data;
+        return dataForTest;
     }
 
     @AfterMethod

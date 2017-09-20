@@ -18,7 +18,7 @@ public class GmailLoginPage extends PageObject {
     private Input loginInput;
 
     public PageObject typeLoginAndSubmit(String login) {
-        WebDriverWait waitForLoginInput = new WebDriverWait(getDriver(), 2);
+        WebDriverWait waitForLoginInput = new WebDriverWait(getDriver(), PageObject.waitTimeInSeconds);
         waitForLoginInput.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"identifierId\"]")));
         loginInput.setText(login);
         nextBtn.click();

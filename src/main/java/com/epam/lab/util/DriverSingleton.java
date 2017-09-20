@@ -6,8 +6,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.concurrent.TimeUnit;
 
 public class DriverSingleton {
-    private static int counter = 0;
-    private static final int THREAD_COUNT = 3; // maximum count of browsers running at one time
+    private static int counterOfRunningThreads = 0;
+    private static final int MAX_THREAD_COUNT = 3; // maximum count of browsers running at one time
     static EnvProperties envProperties = new EnvProperties();
     private static ThreadLocal<WebDriver> webDriverThreadLocal = new ThreadLocal<>();
 
@@ -20,20 +20,20 @@ public class DriverSingleton {
         }
         System.setProperty(envProperties.getDriverType(), envProperties.getDriverPath());
         synchronized (webDriverThreadLocal) {
-            while (counter == THREAD_COUNT) {
+            while (counterOfRunningThreads == MAX_THREAD_COUNT) {
                 webDriverThreadLocal.notify();
             }
-            counter++;
-            WebDriver instance = new ChromeDriver();
-            instance.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-            webDriverThreadLocal.set(instance);
+            counterOfRunningThreads++;
+            WebDriver webDriver = new ChromeDriver();
+            webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+            webDriverThreadLocal.set(webDriver);
         }
         return webDriverThreadLocal.get();
     }
 
     public static void quit() {
         try {
-            counter--;
+            counterOfRunningThreads--;
             webDriverThreadLocal.get().quit();
         } finally {
             webDriverThreadLocal.remove();

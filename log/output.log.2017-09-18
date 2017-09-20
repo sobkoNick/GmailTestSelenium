@@ -1,0 +1,507 @@
+2017-09-18 00:02:36,822  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 00:02:37,044  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 00:03:09,891  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 00:03:11,619  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text
+2017-09-18 00:11:47,825  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 00:11:48,047  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 00:12:37,273  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 00:12:39,708  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text
+2017-09-18 00:12:39,899  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 00:12:41,697  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text
+2017-09-18 00:31:58,801  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 00:31:59,023  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 00:32:09,202  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 00:32:09,466  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 00:32:52,724  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 00:33:03,948  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 00:33:46,868  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 00:33:47,156  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 00:34:36,746  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text
+2017-09-18 00:34:40,778  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 00:34:41,419  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 00:34:42,300  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text
+2017-09-18 00:36:05,184  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 00:36:05,510  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 00:36:50,798  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text
+2017-09-18 00:36:51,691  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text
+2017-09-18 00:36:55,632  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 00:37:47,577  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 00:37:47,779  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 00:38:37,131  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text
+2017-09-18 00:38:38,732  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text
+2017-09-18 00:38:41,009  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 00:38:42,334  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 01:21:16,511  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 01:21:16,712  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 01:21:16,712  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 01:21:16,712  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 01:22:06,165  INFO com.epam.lab.page.SendPage:34 - elem = test3 - some simple text3
+2017-09-18 01:22:08,014  INFO com.epam.lab.page.SendPage:34 - elem = test4 - some other text4
+2017-09-18 01:22:10,857  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 01:22:11,308  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text2
+2017-09-18 10:36:53,046  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 10:36:53,442  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 10:36:53,442  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 10:36:53,460  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 10:38:17,171  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 10:38:26,306  INFO com.epam.lab.page.SendPage:34 - elem = test4 - some other text4
+2017-09-18 10:38:28,373  INFO com.epam.lab.page.SendPage:34 - elem = test3 - some simple text3
+2017-09-18 10:38:30,960  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text2
+2017-09-18 10:43:45,743  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 10:43:46,027  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 10:43:46,028  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 10:43:46,031  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 10:54:22,686  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 10:54:23,008  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 10:54:23,010  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 10:54:23,021  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 10:55:24,024  INFO com.epam.lab.page.SendPage:34 - elem = test4 - some other text4
+2017-09-18 10:55:40,719  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 10:55:40,886  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 10:55:41,101  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text2
+2017-09-18 11:00:14,703  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 11:00:14,978  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 11:00:14,979  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 11:00:14,983  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 11:01:00,635  INFO com.epam.lab.page.SendPage:34 - elem = test4 - some other text4
+2017-09-18 11:01:02,718  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text2
+2017-09-18 11:01:04,612  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 11:01:04,899  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 11:01:47,499  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 11:01:47,772  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 11:01:47,773  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 11:01:47,777  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 11:02:36,580  INFO com.epam.lab.page.SendPage:34 - elem = test4 - some other text4
+2017-09-18 11:02:36,743  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 11:02:37,637  INFO com.epam.lab.page.SendPage:34 - elem = test3 - some simple text3
+2017-09-18 11:02:38,169  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text2
+2017-09-18 11:08:01,461  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 11:08:01,723  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 11:08:01,724  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 11:08:01,734  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 11:11:12,968  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 11:11:13,245  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 11:11:13,247  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 11:11:13,252  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 11:12:54,801  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 11:12:55,095  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 11:12:55,095  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 11:12:55,099  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 11:13:44,884  INFO com.epam.lab.page.SendPage:34 - elem = test4 - some other text4
+2017-09-18 11:13:46,754  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text2
+2017-09-18 11:13:47,180  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 11:13:49,320  INFO com.epam.lab.page.SendPage:34 - elem = test3 - some simple text3
+2017-09-18 11:37:44,947  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 11:37:45,227  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 11:37:45,227  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 11:37:45,232  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 11:38:17,461  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 11:38:17,754  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 11:38:17,755  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 11:38:17,759  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 11:39:11,220  INFO com.epam.lab.page.SendPage:34 - elem = test3 - some simple text3
+2017-09-18 11:39:12,612  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text2
+2017-09-18 11:39:12,944  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 11:39:14,194  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text2
+2017-09-18 11:58:56,403  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 11:58:56,678  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 11:58:56,679  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 11:58:56,683  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 11:59:46,230  INFO com.epam.lab.page.SendPage:34 - elem = test4 - some other text4
+2017-09-18 11:59:47,696  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text2
+2017-09-18 11:59:48,452  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 11:59:48,713  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 12:25:14,466  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 12:25:14,710  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 12:25:14,710  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 12:25:14,714  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 12:25:40,255  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 12:32:13,199  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 12:32:13,447  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 12:32:13,448  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 12:32:13,451  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 12:32:43,593  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 12:32:43,832  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 12:32:43,832  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 12:32:43,836  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 12:34:35,658  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 12:34:35,895  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 12:34:35,895  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 12:34:35,899  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 12:35:21,880  INFO com.epam.lab.page.SendPage:34 - elem = test4 - some other text4
+2017-09-18 12:35:23,234  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 12:35:23,511  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text2
+2017-09-18 12:35:24,519  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 12:40:55,706  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 12:40:55,969  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 12:40:55,970  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 12:40:55,974  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 12:41:44,694  INFO com.epam.lab.page.SendPage:34 - elem = test4 - some other text4
+2017-09-18 12:41:44,801  INFO com.epam.lab.page.SendPage:34 - elem = test3 - some simple text3
+2017-09-18 12:41:45,789  INFO com.epam.lab.page.SendPage:34 - elem = test4 - some other text4
+2017-09-18 12:41:47,011  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 12:45:43,609  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 12:45:43,879  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 12:45:43,879  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 12:45:43,884  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 12:50:39,859  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 12:50:40,115  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 12:50:40,116  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 12:50:40,120  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 12:51:05,868  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 12:51:55,784  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 12:51:56,067  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 12:51:56,067  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 12:51:56,072  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 12:52:20,339  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 12:56:26,012  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 12:56:26,259  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 12:56:26,259  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 12:56:26,263  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 12:56:52,263  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 12:57:19,137  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 12:57:19,401  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 12:57:19,402  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 12:57:19,406  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 12:58:08,130  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text2
+2017-09-18 12:58:08,360  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text2
+2017-09-18 12:58:08,499  INFO com.epam.lab.page.SendPage:34 - elem = test3 - some simple text3
+2017-09-18 12:58:08,727  INFO com.epam.lab.page.SendPage:34 - elem = test3 - some simple text3
+2017-09-18 12:59:12,436  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 12:59:12,692  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 12:59:12,693  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 12:59:12,697  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 12:59:59,461  INFO com.epam.lab.page.SendPage:34 - elem = test4 - some other text4
+2017-09-18 13:00:00,075  INFO com.epam.lab.page.SendPage:34 - elem = test4 - some other text4
+2017-09-18 13:00:00,349  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 13:00:02,079  INFO com.epam.lab.page.SendPage:34 - elem = test3 - some simple text3
+2017-09-18 13:08:32,585  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 13:08:32,830  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 13:08:32,830  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 13:08:32,834  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 13:23:38,913  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 13:23:39,172  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 13:23:39,173  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 13:23:39,177  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 13:24:05,734  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 13:24:53,057  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 13:24:53,343  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 13:24:53,343  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 13:24:53,349  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 13:25:35,467  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text2
+2017-09-18 13:25:40,151  INFO com.epam.lab.page.SendPage:34 - elem = test4 - some other text4
+2017-09-18 13:25:40,618  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 13:25:41,505  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 13:25:59,022  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 13:25:59,293  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 13:25:59,293  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 13:25:59,298  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 13:29:08,444  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 13:29:08,693  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 13:29:08,694  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 13:29:08,699  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 13:29:34,319  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 13:30:02,950  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 13:30:03,191  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 13:30:03,191  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 13:30:03,198  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 13:30:30,482  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 13:31:27,779  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 13:31:28,122  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 13:31:28,123  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 13:31:28,128  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 13:31:54,030  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 13:34:23,460  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 13:34:23,750  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 13:34:23,750  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 13:34:23,756  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 13:34:47,140  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 13:34:47,445  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 13:34:47,446  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 13:34:47,449  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 13:35:31,372  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 13:35:31,649  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 13:35:31,650  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 13:35:31,653  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 13:36:27,392  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text2
+2017-09-18 13:36:27,795  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 13:36:27,983  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text2
+2017-09-18 13:36:28,204  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 13:40:54,765  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 13:40:55,029  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 13:40:55,029  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 13:40:55,033  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 13:41:41,104  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text2
+2017-09-18 13:41:42,010  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text2
+2017-09-18 13:41:42,452  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 13:41:43,530  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 13:49:21,741  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 13:49:22,046  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 13:49:22,046  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 13:49:22,050  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 13:50:08,554  INFO com.epam.lab.page.SendPage:34 - elem = test4 - some other text4
+2017-09-18 13:50:10,636  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text2
+2017-09-18 13:50:11,167  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 13:50:11,439  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 13:53:26,755  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 13:53:27,033  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 13:53:27,034  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 13:53:27,039  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 13:54:12,027  INFO com.epam.lab.page.SendPage:34 - elem = test3 - some simple text3
+2017-09-18 13:54:13,962  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text2
+2017-09-18 13:54:15,439  INFO com.epam.lab.page.SendPage:34 - elem = test4 - some other text4
+2017-09-18 13:54:16,260  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 14:18:05,477  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 14:18:05,769  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 14:18:05,770  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 14:18:05,774  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 14:18:55,434  INFO com.epam.lab.page.SendPage:34 - elem = test4 - some other text4
+2017-09-18 14:18:56,580  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text2
+2017-09-18 14:18:57,112  INFO com.epam.lab.page.SendPage:34 - elem = test3 - some simple text3
+2017-09-18 14:18:58,555  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 14:30:43,750  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 14:30:43,998  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 14:30:43,999  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 14:30:44,002  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 14:31:28,993  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 14:31:29,298  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 14:31:29,299  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 14:31:29,303  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 14:32:24,605  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 14:32:24,923  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 14:32:24,924  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 14:32:24,928  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 14:32:52,174  INFO com.epam.lab.page.SendPage:39 - elem = test4 - some other text4
+2017-09-18 14:34:40,787  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 14:34:41,094  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 14:34:41,095  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 14:34:41,100  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 14:35:12,126  INFO com.epam.lab.page.SendPage:39 - elem = test - some simple text
+2017-09-18 14:35:51,936  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 14:35:52,177  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 14:35:52,177  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 14:35:52,181  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 15:19:58,772  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 15:19:59,058  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 15:19:59,058  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 15:19:59,064  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 15:20:43,165  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text2
+2017-09-18 15:20:46,000  INFO com.epam.lab.page.SendPage:34 - elem = test4 - some other text4
+2017-09-18 15:20:46,522  INFO com.epam.lab.page.SendPage:34 - elem = test3 - some simple text3
+2017-09-18 15:20:47,098  INFO com.epam.lab.page.SendPage:34 - elem = test3 - some simple text3
+2017-09-18 15:34:47,581  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 15:34:47,753  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 15:34:47,753  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 15:34:47,758  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 15:35:39,627  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 15:35:39,821  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 15:35:39,822  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 15:35:39,826  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 15:36:14,024  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 15:36:14,212  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 15:36:14,212  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 15:36:14,217  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 15:49:48,468  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 15:49:48,639  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 15:49:48,639  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 15:49:48,643  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 15:51:12,029  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 15:51:12,270  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 15:51:12,271  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 15:51:12,274  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 15:51:33,409  INFO org.apache.http.impl.execchain.RetryExec:96 - I/O exception (java.net.SocketException) caught when processing request to {}->http://localhost:40199: Connection reset
+2017-09-18 15:51:33,410  INFO org.apache.http.impl.execchain.RetryExec:112 - Retrying request to {}->http://localhost:40199
+2017-09-18 15:51:52,927  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 15:51:53,125  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 15:51:53,126  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 15:51:53,130  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 15:52:15,746  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 15:52:15,920  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 15:52:15,920  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 15:52:15,924  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 15:54:00,602  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 15:54:01,201  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 15:54:01,201  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 15:54:01,207  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 15:54:40,048  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text2
+2017-09-18 15:54:41,045  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 15:54:41,314  INFO com.epam.lab.page.SendPage:34 - elem = test4 - some other text4
+2017-09-18 15:54:59,373  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 15:54:59,638  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 15:54:59,638  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 15:54:59,642  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 15:57:36,998  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 15:57:37,267  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 15:57:37,267  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 15:57:37,271  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 15:58:06,989  INFO com.epam.lab.page.SendPage:34 - elem = test4 - some other text4
+2017-09-18 15:58:09,851  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 15:58:39,226  INFO com.epam.lab.page.SendPage:34 - elem = test3 - some simple text3
+2017-09-18 15:58:39,587  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text2
+2017-09-18 15:58:59,681  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 15:58:59,930  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 15:58:59,931  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 15:58:59,934  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 15:59:38,747  INFO com.epam.lab.page.SendPage:34 - elem = test4 - some other text4
+2017-09-18 15:59:40,867  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text2
+2017-09-18 15:59:43,302  INFO com.epam.lab.page.SendPage:34 - elem = test3 - some simple text3
+2017-09-18 16:00:07,201  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 16:01:32,421  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 16:01:32,737  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 16:01:32,738  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 16:01:32,742  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 16:02:15,532  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text2
+2017-09-18 16:02:15,979  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text2
+2017-09-18 16:02:22,605  INFO com.epam.lab.page.SendPage:34 - elem = test3 - some simple text3
+2017-09-18 16:02:42,858  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 16:13:53,120  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 16:13:53,364  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 16:13:53,364  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 16:13:53,368  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 16:14:33,704  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 16:14:36,883  INFO com.epam.lab.page.SendPage:34 - elem = test3 - some simple text3
+2017-09-18 16:14:37,178  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text2
+2017-09-18 16:15:00,476  INFO com.epam.lab.page.SendPage:34 - elem = test4 - some other text4
+2017-09-18 16:27:36,820  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 16:27:37,095  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 16:27:37,095  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 16:27:37,099  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 16:28:11,463  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 16:28:11,740  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 16:28:11,741  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 16:28:11,745  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 16:32:20,578  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 16:32:20,830  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 16:32:20,830  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 16:32:20,834  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 16:32:58,692  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text2
+2017-09-18 16:32:59,785  INFO com.epam.lab.page.SendPage:34 - elem = test4 - some other text4
+2017-09-18 16:33:02,227  INFO com.epam.lab.page.SendPage:34 - elem = test3 - some simple text3
+2017-09-18 16:33:26,600  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 16:46:13,286  INFO com.epam.lab.DOMParser:25 - DOM parser starts
+2017-09-18 16:46:13,538  INFO com.epam.lab.DOMParser:41 - DOM parser ends
+2017-09-18 16:46:13,538  INFO com.epam.lab.DOMParser:55 - DOM parser starts
+2017-09-18 16:46:13,544  INFO com.epam.lab.DOMParser:71 - DOM parser ends
+2017-09-18 16:46:53,504  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 16:46:54,548  INFO com.epam.lab.page.SendPage:34 - elem = test4 - some other text4
+2017-09-18 16:46:55,604  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text2
+2017-09-18 16:47:19,091  INFO com.epam.lab.page.SendPage:34 - elem = test3 - some simple text3
+2017-09-18 20:57:59,465  INFO com.epam.lab.util.DOMParser:27 - DOM parser starts
+2017-09-18 20:59:38,647  INFO com.epam.lab.util.DOMParser:27 - DOM parser starts
+2017-09-18 21:00:38,603  INFO com.epam.lab.util.DOMParser:27 - DOM parser starts
+2017-09-18 21:01:27,082  INFO com.epam.lab.util.DOMParser:27 - DOM parser starts
+2017-09-18 21:01:27,298  INFO com.epam.lab.util.DOMParser:43 - DOM parser ends
+2017-09-18 21:01:27,298  INFO com.epam.lab.util.DOMParser:57 - DOM parser starts
+2017-09-18 21:01:27,298  INFO com.epam.lab.util.DOMParser:73 - DOM parser ends
+2017-09-18 21:02:07,824  INFO com.epam.lab.util.DOMParser:27 - DOM parser starts
+2017-09-18 21:02:08,078  INFO com.epam.lab.util.DOMParser:43 - DOM parser ends
+2017-09-18 21:02:08,078  INFO com.epam.lab.util.DOMParser:57 - DOM parser starts
+2017-09-18 21:02:08,078  INFO com.epam.lab.util.DOMParser:73 - DOM parser ends
+2017-09-18 21:02:44,719  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text2
+2017-09-18 21:02:50,113  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 21:02:53,172  INFO com.epam.lab.page.SendPage:34 - elem = test3 - some simple text3
+2017-09-18 21:03:16,164  INFO com.epam.lab.page.SendPage:34 - elem = test4 - some other text4
+2017-09-18 21:04:13,165  INFO com.epam.lab.util.DOMParser:27 - DOM parser starts
+2017-09-18 21:04:13,366  INFO com.epam.lab.util.DOMParser:43 - DOM parser ends
+2017-09-18 21:04:13,366  INFO com.epam.lab.util.DOMParser:57 - DOM parser starts
+2017-09-18 21:04:13,366  INFO com.epam.lab.util.DOMParser:73 - DOM parser ends
+2017-09-18 21:06:03,645  INFO com.epam.lab.util.DOMParser:27 - DOM parser starts
+2017-09-18 21:06:03,877  INFO com.epam.lab.util.DOMParser:43 - DOM parser ends
+2017-09-18 21:06:03,877  INFO com.epam.lab.util.DOMParser:57 - DOM parser starts
+2017-09-18 21:06:03,877  INFO com.epam.lab.util.DOMParser:73 - DOM parser ends
+2017-09-18 21:06:43,190  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text2
+2017-09-18 21:06:45,240  INFO com.epam.lab.page.SendPage:34 - elem = test4 - some other text4
+2017-09-18 21:06:48,109  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 21:07:13,593  INFO com.epam.lab.page.SendPage:34 - elem = test3 - some simple text3
+2017-09-18 21:09:51,377  INFO com.epam.lab.util.DOMParser:27 - DOM parser starts
+2017-09-18 21:09:51,580  INFO com.epam.lab.util.DOMParser:43 - DOM parser ends
+2017-09-18 21:09:51,580  INFO com.epam.lab.util.DOMParser:57 - DOM parser starts
+2017-09-18 21:09:51,596  INFO com.epam.lab.util.DOMParser:73 - DOM parser ends
+2017-09-18 21:10:34,190  INFO com.epam.lab.page.SendPage:34 - elem = test4 - some other text4
+2017-09-18 21:10:36,927  INFO com.epam.lab.page.SendPage:34 - elem = test3 - some simple text3
+2017-09-18 21:10:39,817  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 21:11:22,925  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text2
+2017-09-18 21:37:40,247  INFO com.epam.lab.util.DOMParser:27 - DOM parser starts
+2017-09-18 21:37:40,459  INFO com.epam.lab.util.DOMParser:43 - DOM parser ends
+2017-09-18 21:37:40,460  INFO com.epam.lab.util.DOMParser:57 - DOM parser starts
+2017-09-18 21:37:40,463  INFO com.epam.lab.util.DOMParser:73 - DOM parser ends
+2017-09-18 21:38:21,362  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 21:38:22,295  INFO com.epam.lab.page.SendPage:34 - elem = test4 - some other text4
+2017-09-18 21:38:27,895  INFO com.epam.lab.page.SendPage:34 - elem = test3 - some simple text3
+2017-09-18 21:38:49,807  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text2
+2017-09-18 21:45:51,242  INFO com.epam.lab.util.DOMParser:27 - DOM parser starts
+2017-09-18 21:45:51,465  INFO com.epam.lab.util.DOMParser:43 - DOM parser ends
+2017-09-18 21:45:51,466  INFO com.epam.lab.util.DOMParser:57 - DOM parser starts
+2017-09-18 21:45:51,469  INFO com.epam.lab.util.DOMParser:73 - DOM parser ends
+2017-09-18 21:46:29,965  INFO com.epam.lab.page.SendPage:34 - elem = test3 - some simple text3
+2017-09-18 21:46:30,425  INFO com.epam.lab.page.SendPage:34 - elem = test4 - some other text4
+2017-09-18 21:46:38,656  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 21:46:57,859  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text2
+2017-09-18 21:50:18,713  INFO com.epam.lab.util.DOMParser:27 - DOM parser starts
+2017-09-18 21:50:18,924  INFO com.epam.lab.util.DOMParser:43 - DOM parser ends
+2017-09-18 21:50:18,924  INFO com.epam.lab.util.DOMParser:57 - DOM parser starts
+2017-09-18 21:50:18,928  INFO com.epam.lab.util.DOMParser:73 - DOM parser ends
+2017-09-18 21:50:56,376  INFO com.epam.lab.page.SendPage:34 - elem = test4 - some other text4
+2017-09-18 21:50:58,520  INFO com.epam.lab.page.SendPage:34 - elem = test3 - some simple text3
+2017-09-18 21:51:00,595  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text2
+2017-09-18 21:51:26,008  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 21:57:30,652  INFO com.epam.lab.util.DOMParser:27 - DOM parser starts
+2017-09-18 21:57:30,868  INFO com.epam.lab.util.DOMParser:43 - DOM parser ends
+2017-09-18 21:57:30,868  INFO com.epam.lab.util.DOMParser:57 - DOM parser starts
+2017-09-18 21:57:30,868  INFO com.epam.lab.util.DOMParser:73 - DOM parser ends
+2017-09-18 21:58:51,628  INFO com.epam.lab.util.DOMParser:27 - DOM parser starts
+2017-09-18 21:58:51,899  INFO com.epam.lab.util.DOMParser:43 - DOM parser ends
+2017-09-18 21:58:51,900  INFO com.epam.lab.util.DOMParser:57 - DOM parser starts
+2017-09-18 21:58:51,906  INFO com.epam.lab.util.DOMParser:73 - DOM parser ends
+2017-09-18 22:01:57,446  INFO com.epam.lab.util.DOMParser:27 - DOM parser starts
+2017-09-18 22:01:57,657  INFO com.epam.lab.util.DOMParser:43 - DOM parser ends
+2017-09-18 22:01:57,657  INFO com.epam.lab.util.DOMParser:57 - DOM parser starts
+2017-09-18 22:01:57,657  INFO com.epam.lab.util.DOMParser:73 - DOM parser ends
+2017-09-18 22:02:38,082  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text2
+2017-09-18 22:02:39,348  INFO com.epam.lab.page.SendPage:34 - elem = test3 - some simple text3
+2017-09-18 22:02:49,530  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 22:03:08,864  INFO com.epam.lab.page.SendPage:34 - elem = test4 - some other text4
+2017-09-18 22:07:35,816  INFO com.epam.lab.util.DOMParser:27 - DOM parser starts
+2017-09-18 22:07:36,039  INFO com.epam.lab.util.DOMParser:43 - DOM parser ends
+2017-09-18 22:07:36,039  INFO com.epam.lab.util.DOMParser:57 - DOM parser starts
+2017-09-18 22:07:36,039  INFO com.epam.lab.util.DOMParser:73 - DOM parser ends
+2017-09-18 22:08:12,369  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 22:08:13,691  INFO com.epam.lab.page.SendPage:34 - elem = test4 - some other text4
+2017-09-18 22:08:18,023  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text2
+2017-09-18 22:08:38,844  INFO com.epam.lab.page.SendPage:34 - elem = test3 - some simple text3
+2017-09-18 22:30:22,853  INFO com.epam.lab.util.DOMParser:27 - DOM parser starts
+2017-09-18 22:30:23,062  INFO com.epam.lab.util.DOMParser:43 - DOM parser ends
+2017-09-18 22:30:23,062  INFO com.epam.lab.util.DOMParser:57 - DOM parser starts
+2017-09-18 22:30:23,062  INFO com.epam.lab.util.DOMParser:73 - DOM parser ends
+2017-09-18 22:31:42,821  INFO com.epam.lab.util.DOMParser:27 - DOM parser starts
+2017-09-18 22:31:43,037  INFO com.epam.lab.util.DOMParser:43 - DOM parser ends
+2017-09-18 22:31:43,037  INFO com.epam.lab.util.DOMParser:57 - DOM parser starts
+2017-09-18 22:31:43,037  INFO com.epam.lab.util.DOMParser:73 - DOM parser ends
+2017-09-18 22:32:17,311  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 22:32:24,345  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text2
+2017-09-18 22:32:26,638  INFO com.epam.lab.page.SendPage:34 - elem = test3 - some simple text3
+2017-09-18 22:32:43,470  INFO com.epam.lab.page.SendPage:34 - elem = test4 - some other text4
+2017-09-18 23:30:24,688  INFO com.epam.lab.util.DOMParser:29 - DOM parser starts
+2017-09-18 23:30:24,899  INFO com.epam.lab.util.DOMParser:45 - DOM parser ends
+2017-09-18 23:30:24,899  INFO com.epam.lab.util.DOMParser:60 - DOM parser starts
+2017-09-18 23:30:24,915  INFO com.epam.lab.util.DOMParser:76 - DOM parser ends
+2017-09-18 23:31:04,875  INFO com.epam.lab.page.SendPage:34 - elem = test4 - some other text4
+2017-09-18 23:31:05,147  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 23:31:08,763  INFO com.epam.lab.page.SendPage:34 - elem = test3 - some simple text3
+2017-09-18 23:31:30,834  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text2
+2017-09-18 23:48:48,480  INFO com.epam.lab.util.DOMParser:29 - DOM parser starts
+2017-09-18 23:48:48,684  INFO com.epam.lab.util.DOMParser:45 - DOM parser ends
+2017-09-18 23:48:48,700  INFO com.epam.lab.util.DOMParser:60 - DOM parser starts
+2017-09-18 23:48:48,700  INFO com.epam.lab.util.DOMParser:76 - DOM parser ends
+2017-09-18 23:50:42,064  INFO com.epam.lab.util.DOMParser:29 - DOM parser starts
+2017-09-18 23:50:42,301  INFO com.epam.lab.util.DOMParser:45 - DOM parser ends
+2017-09-18 23:50:42,302  INFO com.epam.lab.util.DOMParser:60 - DOM parser starts
+2017-09-18 23:50:42,306  INFO com.epam.lab.util.DOMParser:76 - DOM parser ends
+2017-09-18 23:57:22,184  INFO com.epam.lab.util.DOMParser:29 - DOM parser starts
+2017-09-18 23:57:22,443  INFO com.epam.lab.util.DOMParser:45 - DOM parser ends
+2017-09-18 23:57:22,443  INFO com.epam.lab.util.DOMParser:60 - DOM parser starts
+2017-09-18 23:57:22,447  INFO com.epam.lab.util.DOMParser:76 - DOM parser ends
+2017-09-18 23:57:59,732  INFO com.epam.lab.page.SendPage:34 - elem = test2 - some other text2
+2017-09-18 23:58:00,342  INFO com.epam.lab.page.SendPage:34 - elem = test - some simple text
+2017-09-18 23:58:04,820  INFO com.epam.lab.page.SendPage:34 - elem = test4 - some other text4
+2017-09-18 23:58:25,861  INFO com.epam.lab.page.SendPage:34 - elem = test3 - some simple text3

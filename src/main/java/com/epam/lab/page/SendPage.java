@@ -28,9 +28,8 @@ public class SendPage extends PageObject {
     private Button okDeleteBtn;
 
     public PageObject verifyMessageInSendPage(String subject) {
-        WebDriverWait waitForSubjectText = new WebDriverWait(getDriver(), 2);
+        WebDriverWait waitForSubjectText = new WebDriverWait(getDriver(), PageObject.waitTimeInSeconds);
         waitForSubjectText.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@class=\"xS\"]/div/div[2]")));
-
         LOGGER.info("elem = " + subjectElement.getText());
         if (subjectElement.getText().toLowerCase().contains(subject.toLowerCase())) {
             return this;
@@ -42,17 +41,15 @@ public class SendPage extends PageObject {
     public PageObject removeMessageFromSend() {
         mailCheckBox.clickOnCheckField();
         deleteMessageBtn.click();
-
-        WebDriverWait waitForDeleteBtn = new WebDriverWait(getDriver(), 2);
+        WebDriverWait waitForDeleteBtn = new WebDriverWait(getDriver(), PageObject.waitTimeInSeconds);
         waitForDeleteBtn.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[@name=\"ok\"]")));
-
         okDeleteBtn.click();
         return this;
     }
 
     public String verifyMessageDeleting() {
         String xpathExpression = "/html/body/div[7]/div[3]/div/div[1]/div[5]/div[1]/div/div[3]/div/div/div[2]";
-        WebDriverWait waitForDeletePopUpMessage = new WebDriverWait(getDriver(), 2);
+        WebDriverWait waitForDeletePopUpMessage = new WebDriverWait(getDriver(), PageObject.waitTimeInSeconds);
         waitForDeletePopUpMessage.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpathExpression)));
         return getDriver().findElement(
                     By.xpath(xpathExpression)).getText();

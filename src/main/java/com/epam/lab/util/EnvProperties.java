@@ -40,11 +40,4 @@ public class EnvProperties {
     public String getSendUrl() {
         return properties.getProperty("sendHref");
     }
-
-//    public String getMessageSendingVerifyingText() {
-//        return properties.getProperty("textSendVerifying");
-//    }
-//    public String getMessageDeletingVerifyingText() {
-//        return properties.getProperty("textDeleteVerifying");
-//    }
 }

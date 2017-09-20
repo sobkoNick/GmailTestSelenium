@@ -17,7 +17,7 @@ public class GmailInputPasswPage extends PageObject {
     private Button nextBtn;
 
     public PageObject inputPasswordAndSubmit(String password) {
-        WebDriverWait waitForPasswordInput = new WebDriverWait(getDriver(), 2);
+        WebDriverWait waitForPasswordInput = new WebDriverWait(getDriver(), PageObject.waitTimeInSeconds);
         waitForPasswordInput.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"password\"]/div[1]/div/div[1]/input")));
         passwordInput.setText(password);
         nextBtn.click();

@@ -10,12 +10,13 @@ import org.openqa.selenium.support.pagefactory.DefaultElementLocatorFactory;
  * Basic class for all pages
  */
 public class PageObject {
+    public static final int waitTimeInSeconds = 5; // time for visibilityOfElementLocated
     private WebDriver driver;
     public PageObject() {
         driver = DriverSingleton.getInstance();
         driver.manage().window().maximize();
-        // set up decorator
-        PageFactory.initElements( new MyFieldDecorator(new DefaultElementLocatorFactory(driver)), this);
+        // set up custom decorator
+        PageFactory.initElements(new MyFieldDecorator(new DefaultElementLocatorFactory(driver)), this);
     }
 
     public WebDriver getDriver() {
