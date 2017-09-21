@@ -11,17 +11,16 @@ import org.openqa.selenium.support.ui.WebDriverWait;
  *
  */
 public class GmailInputPasswPage extends PageObject {
-    @FindBy(xpath = "//*[@id=\"password\"]/div[1]/div/div[1]/input")
+    @FindBy(xpath = "//*[@type=\"password\"]")
     private Input passwordInput;
-    @FindBy(xpath = "//*[@id=\"passwordNext\"]")
+    @FindBy(xpath = "//*[@class=\"CwaK9\"]")
     private Button nextBtn;
 
-    public PageObject inputPasswordAndSubmit(String password) {
+    public void inputPasswordAndSubmit(String password) {
         WebDriverWait waitForPasswordInput = new WebDriverWait(getDriver(), PageObject.waitTimeInSeconds);
-        waitForPasswordInput.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"password\"]/div[1]/div/div[1]/input")));
+        waitForPasswordInput.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@type=\"password\"]")));
         passwordInput.setText(password);
         nextBtn.click();
-        return new WriteLetterPage();
     }
 
     public String checkLoginComplete() {

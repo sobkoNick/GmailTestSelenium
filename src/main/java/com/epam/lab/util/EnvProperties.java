@@ -3,6 +3,7 @@ package com.epam.lab.util;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
 import java.util.Properties;
 
 /**
@@ -22,22 +23,33 @@ public class EnvProperties {
         }
     }
 
-    public String getBaseUrl () {
+    public String getBaseUrl() {
         return properties.getProperty("baseUrl");
     }
+
     public String getDriverType() {
         return properties.getProperty("driverType");
     }
+
     public String getDriverPath() {
         return properties.getProperty("driverPath");
     }
+
     public String getXMLPathForUsers() {
         return properties.getProperty("xmlDataPathUser");
     }
+
     public String getXMLPathForMessages() {
         return properties.getProperty("xmlDataPathMessages");
     }
+
     public String getSendUrl() {
         return properties.getProperty("sendHref");
     }
+
+    public int getParallelTestsCount() {
+        return Integer.parseInt(properties.getProperty("testsAtTheSameTime"));
+    }
+
+
 }

@@ -12,16 +12,15 @@ import org.openqa.selenium.support.ui.WebDriverWait;
  */
 public class GmailLoginPage extends PageObject {
 
-    @FindBy(xpath = "//*[@id=\"identifierNext\"]/content")
+    @FindBy(xpath = "//*[@class=\"CwaK9\"]")
     private Button nextBtn;
-    @FindBy(xpath = "//*[@id=\"identifierId\"]")
+    @FindBy(xpath = "//*[@type=\"email\"]")
     private Input loginInput;
 
-    public PageObject typeLoginAndSubmit(String login) {
+    public void typeLoginAndSubmit(String login) {
         WebDriverWait waitForLoginInput = new WebDriverWait(getDriver(), PageObject.waitTimeInSeconds);
         waitForLoginInput.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"identifierId\"]")));
         loginInput.setText(login);
         nextBtn.click();
-        return new GmailInputPasswPage();
     }
 }

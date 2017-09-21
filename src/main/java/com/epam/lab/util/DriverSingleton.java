@@ -7,8 +7,8 @@ import java.util.concurrent.TimeUnit;
 
 public class DriverSingleton {
     private static int counterOfRunningThreads = 0;
-    private static final int MAX_THREAD_COUNT = 3; // maximum count of browsers running at one time
     static EnvProperties envProperties = new EnvProperties();
+    private static final int MAX_THREAD_COUNT = envProperties.getParallelTestsCount(); // maximum count of browsers running at one time
     private static ThreadLocal<WebDriver> webDriverThreadLocal = new ThreadLocal<>();
 
     private DriverSingleton() {

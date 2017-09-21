@@ -9,23 +9,34 @@ import com.epam.lab.page.WriteLetterPage;
  *
  */
 public class MessageBO {
-    private EnvProperties envProperties = new EnvProperties();
-    private WriteLetterPage writeLetterPage = new WriteLetterPage();
+    private EnvProperties envProperties;
+    private WriteLetterPage writeLetterPage;
+    private SendPage sendPage;
+
+    public MessageBO() {
+        envProperties = new EnvProperties();
+        writeLetterPage = new WriteLetterPage();
+        sendPage = new SendPage();
+    }
 
     public void writeMessage(Message message) {
         writeLetterPage.clickOnCompose();
         writeLetterPage.writeAndSendLetter(message.getReceiver(), message.getSubject(), message.getText());
     }
 
-    public String verifySendingMessage() {
-        String messageToReturn = writeLetterPage.verifyLetterSending();
-        writeLetterPage.goToSendPage(envProperties.getSendUrl());
-        return messageToReturn;
+    public boolean verifySendingMessage() {
+        return writeLetterPage.verifyLetterSending();
     }
 
-    public String verifyDeletingMessage(Message message) {
-        SendPage sendPage = new SendPage();
-        sendPage.verifyMessageInSendPage(message.getSubject());
+    public void goToSendPage() {
+        writeLetterPage.goToSendPage(envProperties.getSendUrl());
+    }
+
+    public String verifyMessageInSendPage() {
+        return sendPage.verifyMessageInSendPage();
+    }
+
+    public String verifyDeletingMessage() {
         sendPage.removeMessageFromSend();
         return sendPage.verifyMessageDeleting();
     }

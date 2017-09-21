@@ -15,10 +15,10 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class SendPage extends PageObject {
     private static final Logger LOGGER = Logger.getLogger(SendPage.class);
 
-    @FindBy(xpath = "//*[@class=\"xS\"]/div/div[2]")
+    @FindBy(xpath = "(//*[@class=\"xS\"]/div/div[2])[1]")
     private Label subjectElement;
 
-    @FindBy(xpath = "/html/body/div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div/div/div[2]/div[3]/div[1]/div/table/tbody/tr[1]/td[2]/div")
+    @FindBy(xpath = "(//*[@class=\"Cp\"])[4]/div/table/tbody/tr[1]/td[2]/div")
     private CheckBox mailCheckBox;
 
     @FindBy(xpath = "//*[@class=\"aeH\"]/div[2]/div[1]/div[1]/div/div/div[2]/div[3]/div")
@@ -27,32 +27,26 @@ public class SendPage extends PageObject {
     @FindBy(xpath = "//button[@name=\"ok\"]")
     private Button okDeleteBtn;
 
-    public PageObject verifyMessageInSendPage(String subject) {
+    public String verifyMessageInSendPage() {
         WebDriverWait waitForSubjectText = new WebDriverWait(getDriver(), PageObject.waitTimeInSeconds);
-        waitForSubjectText.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@class=\"xS\"]/div/div[2]")));
-        LOGGER.info("elem = " + subjectElement.getText());
-        if (subjectElement.getText().toLowerCase().contains(subject.toLowerCase())) {
-            return this;
-        } else {
-            return null;
-        }
+        waitForSubjectText.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//*[@class=\"xS\"]/div/div[2])[1]")));
+        return subjectElement.getText();
     }
 
-    public PageObject removeMessageFromSend() {
+    public void removeMessageFromSend() {
         mailCheckBox.clickOnCheckField();
         deleteMessageBtn.click();
         WebDriverWait waitForDeleteBtn = new WebDriverWait(getDriver(), PageObject.waitTimeInSeconds);
         waitForDeleteBtn.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[@name=\"ok\"]")));
         okDeleteBtn.click();
-        return this;
     }
 
     public String verifyMessageDeleting() {
-        String xpathExpression = "/html/body/div[7]/div[3]/div/div[1]/div[5]/div[1]/div/div[3]/div/div/div[2]";
+        String xpathExpression = "(//*[@class=\"Cp\"])[4]/div[1]/table/tbody/tr[3]/td[6]/div/div/div/span[1]";
         WebDriverWait waitForDeletePopUpMessage = new WebDriverWait(getDriver(), PageObject.waitTimeInSeconds);
         waitForDeletePopUpMessage.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpathExpression)));
         return getDriver().findElement(
-                    By.xpath(xpathExpression)).getText();
+                By.xpath(xpathExpression)).getText();
     }
 }
 

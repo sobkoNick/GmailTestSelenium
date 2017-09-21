@@ -8,11 +8,18 @@ import com.epam.lab.page.*;
  *
  */
 public class LoginBO {
-    private EnvProperties envProperties = new EnvProperties();
+    private EnvProperties envProperties;
+
+    public LoginBO() {
+        envProperties = new EnvProperties();
+    }
+
     public String login(User user) {
         StartPage startPage = new StartPage();
-        GmailLoginPage gmailLoginPage = (GmailLoginPage) startPage.goToLoginPage(envProperties.getBaseUrl());
-        GmailInputPasswPage passwPage = (GmailInputPasswPage) gmailLoginPage.typeLoginAndSubmit(user.getLogin());
+        startPage.goToLoginPage(envProperties.getBaseUrl());
+        GmailLoginPage gmailLoginPage = new GmailLoginPage();
+        gmailLoginPage.typeLoginAndSubmit(user.getLogin());
+        GmailInputPasswPage passwPage = new GmailInputPasswPage();
         passwPage.inputPasswordAndSubmit(user.getPassword());
         return passwPage.checkLoginComplete();
     }

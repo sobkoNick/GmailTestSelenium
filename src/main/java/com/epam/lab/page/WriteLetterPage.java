@@ -20,30 +20,27 @@ public class WriteLetterPage extends PageObject {
     @FindBy(css = "div.T-I.J-J5-Ji.aoO.T-I-atl.L3")
     private Button sendBtn;
 
-    public PageObject clickOnCompose() {
+    public void clickOnCompose() {
         getDriver().findElement(By.cssSelector("div.T-I.J-J5-Ji.T-I-KE.L3")).click();
-        return this;
     }
 
-    public PageObject writeAndSendLetter(String receiver, String subject, String message) {
+    public void writeAndSendLetter(String receiver, String subject, String message) {
         WebDriverWait waitForElement = new WebDriverWait(getDriver(), PageObject.waitTimeInSeconds);
         waitForElement.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div.Am.Al.editable.LW-avf")));
         receiverInput.setText(receiver);
         subjectInput.setText(subject);
         messageInput.setText(message);
         sendBtn.click();
-        return this;
     }
-
-    public String verifyLetterSending() {
+    // defines if after letter sending pop up appears with some text inside. if it has text so the letter was sent.
+    public boolean verifyLetterSending() {
         String elementPath = "/html/body/div[7]/div[3]/div/div[1]/div[5]/div[1]/div/div[3]/div/div/div[2]";
         WebDriverWait waitForElement = new WebDriverWait(getDriver(), PageObject.waitTimeInSeconds);
         waitForElement.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(elementPath)));
-        return getDriver().findElement(By.xpath(elementPath)).getAttribute("innerHTML");
+        return !getDriver().findElement(By.xpath(elementPath)).getAttribute("innerText").isEmpty();
     }
 
-    public PageObject goToSendPage(String sendURL) {
+    public void goToSendPage(String sendURL) {
         getDriver().get(sendURL);
-        return new SendPage();
     }
 }
