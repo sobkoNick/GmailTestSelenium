@@ -51,5 +51,12 @@ public class EnvProperties {
         return Integer.parseInt(properties.getProperty("testsAtTheSameTime"));
     }
 
+    public String getUsersPathCSV() {
+        return properties.getProperty("userCSVPath");
+    }
+    public String getMessagesPathXLSX() {
+        return properties.getProperty("messagesXLSXPath");
+    }
+
 
 }

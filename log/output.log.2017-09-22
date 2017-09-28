@@ -1,0 +1,4 @@
+2017-09-22 09:30:31,882  INFO com.epam.lab.util.DOMParser:29 - DOM parser starts
+2017-09-22 09:30:32,129  INFO com.epam.lab.util.DOMParser:45 - DOM parser ends
+2017-09-22 09:30:32,130  INFO com.epam.lab.util.DOMParser:60 - DOM parser starts
+2017-09-22 09:30:32,151  INFO com.epam.lab.util.DOMParser:76 - DOM parser ends
