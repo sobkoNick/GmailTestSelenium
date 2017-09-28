@@ -13,15 +13,16 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 /**
- * Test class
+ *
  */
 @Listeners({TestNGListener.class})
-public class GmailTest {
-    private static final Logger LOGGER = Logger.getLogger(GmailTest.class);
+public class GmailTestThatFails {
+    private static final Logger LOGGER = Logger.getLogger(GmailTestThatFails.class);
 
     @Test(dataProvider = "dataFromCSVandExel", dataProviderClass = DataProviderClass.class, alwaysRun = true)
 //    @Test(dataProvider = "data", dataProviderClass = DataProviderClass.class, alwaysRun = true)  //for 5 tests and DOM parser
-    public void writeAndDeleteMessageGmail_ValidEmailAndPasswordGiven_ShouldPassTheTest(User user, Message message) {
+    public void writeAndDeleteMessageGmail_InValidEmailAndPasswordGiven_ShouldFailTheTest(User user, Message message) {
+        user.setPassword("wrong!");
         LOGGER.info("test stars");
         LoginBO loginBO = new LoginBO();
         Assert.assertTrue(loginBO.login(user).contains(user.getLogin()));
@@ -42,5 +43,4 @@ public class GmailTest {
     public void tearDown() {
         DriverSingleton.quit();
     }
-
 }

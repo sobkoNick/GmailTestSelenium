@@ -14,6 +14,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  *
@@ -70,10 +71,9 @@ public class CSVExelParser {
             }
             counter = 0;
             messages.add(message);
-
         }
-        messages.remove(messages.remove(messages.size()-1));
-        return messages;
+        // deletes last value wich is null
+        return messages.stream().filter(message -> !(message.getText() == null)).collect(Collectors.toList());
     }
 
 //    public static void main(String[] args) {
