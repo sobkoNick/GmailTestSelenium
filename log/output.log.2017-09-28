@@ -1,0 +1,672 @@
+2017-09-28 13:09:16,014  INFO com.epam.lab.util.DOMParser:29 - DOM parser starts
+2017-09-28 13:51:51,602  INFO com.epam.lab.util.DOMParser:29 - DOM parser starts
+2017-09-28 14:09:57,866  INFO com.epam.lab.util.DOMParser:29 - DOM parser starts
+2017-09-28 14:09:58,396  INFO com.epam.lab.util.DOMParser:45 - DOM parser ends
+2017-09-28 14:09:58,397  INFO com.epam.lab.util.DOMParser:60 - DOM parser starts
+2017-09-28 14:09:58,405  INFO com.epam.lab.util.DOMParser:76 - DOM parser ends
+2017-09-28 14:19:02,238  INFO com.epam.lab.util.DOMParser:29 - DOM parser starts
+2017-09-28 14:22:59,370  INFO com.epam.lab.util.DOMParser:29 - DOM parser starts
+2017-09-28 14:23:14,445  INFO com.epam.lab.util.DOMParser:29 - DOM parser starts
+2017-09-28 14:23:58,655  INFO com.epam.lab.util.DOMParser:29 - DOM parser starts
+2017-09-28 14:24:31,161  INFO com.epam.lab.util.DOMParser:29 - DOM parser starts
+2017-09-28 14:24:31,416  INFO com.epam.lab.util.DOMParser:45 - DOM parser ends
+2017-09-28 14:24:31,417  INFO com.epam.lab.util.DOMParser:60 - DOM parser starts
+2017-09-28 14:24:31,423  INFO com.epam.lab.util.DOMParser:76 - DOM parser ends
+2017-09-28 14:25:41,968  INFO com.epam.lab.util.DOMParser:29 - DOM parser starts
+2017-09-28 14:25:42,211  INFO com.epam.lab.util.DOMParser:45 - DOM parser ends
+2017-09-28 14:25:42,212  INFO com.epam.lab.util.DOMParser:60 - DOM parser starts
+2017-09-28 14:25:42,217  INFO com.epam.lab.util.DOMParser:76 - DOM parser ends
+2017-09-28 14:26:03,615  INFO org.apache.http.impl.execchain.RetryExec:96 - I/O exception (java.net.SocketException) caught when processing request to {}->http://localhost:45518: Connection reset
+2017-09-28 14:26:03,615  INFO org.apache.http.impl.execchain.RetryExec:112 - Retrying request to {}->http://localhost:45518
+2017-09-28 14:28:04,131  INFO com.epam.lab.util.DOMParser:29 - DOM parser starts
+2017-09-28 14:28:04,423  INFO com.epam.lab.util.DOMParser:45 - DOM parser ends
+2017-09-28 14:28:04,424  INFO com.epam.lab.util.DOMParser:60 - DOM parser starts
+2017-09-28 14:28:04,428  INFO com.epam.lab.util.DOMParser:76 - DOM parser ends
+2017-09-28 14:32:51,396  INFO com.epam.lab.util.DOMParser:29 - DOM parser starts
+2017-09-28 14:32:51,675  INFO com.epam.lab.util.DOMParser:45 - DOM parser ends
+2017-09-28 14:32:51,675  INFO com.epam.lab.util.DOMParser:60 - DOM parser starts
+2017-09-28 14:32:51,680  INFO com.epam.lab.util.DOMParser:76 - DOM parser ends
+2017-09-28 14:35:18,781  INFO com.epam.lab.util.DOMParser:29 - DOM parser starts
+2017-09-28 14:35:19,052  INFO com.epam.lab.util.DOMParser:45 - DOM parser ends
+2017-09-28 14:35:19,052  INFO com.epam.lab.util.DOMParser:60 - DOM parser starts
+2017-09-28 14:35:19,057  INFO com.epam.lab.util.DOMParser:76 - DOM parser ends
+2017-09-28 14:52:29,034  INFO com.epam.lab.util.DOMParser:29 - DOM parser starts
+2017-09-28 14:52:29,269  INFO com.epam.lab.util.DOMParser:45 - DOM parser ends
+2017-09-28 14:52:29,269  INFO com.epam.lab.util.DOMParser:60 - DOM parser starts
+2017-09-28 14:52:29,273  INFO com.epam.lab.util.DOMParser:76 - DOM parser ends
+2017-09-28 15:09:16,438  INFO com.epam.lab.util.DOMParser:29 - DOM parser starts
+2017-09-28 15:09:16,713  INFO com.epam.lab.util.DOMParser:45 - DOM parser ends
+2017-09-28 15:09:16,714  INFO com.epam.lab.util.DOMParser:60 - DOM parser starts
+2017-09-28 15:09:16,721  INFO com.epam.lab.util.DOMParser:76 - DOM parser ends
+2017-09-28 15:13:41,636  INFO com.epam.lab.util.DOMParser:29 - DOM parser starts
+2017-09-28 15:13:41,887  INFO com.epam.lab.util.DOMParser:45 - DOM parser ends
+2017-09-28 15:13:41,888  INFO com.epam.lab.util.DOMParser:60 - DOM parser starts
+2017-09-28 15:13:41,894  INFO com.epam.lab.util.DOMParser:76 - DOM parser ends
+2017-09-28 15:32:21,936  INFO com.epam.lab.test.DataProviderClass:42 - dataProvider starts
+2017-09-28 15:32:23,645  INFO com.epam.lab.test.DataProviderClass:46 - data was successfully readed.
+2017-09-28 15:32:23,645  INFO com.epam.lab.test.DataProviderClass:52 - dataProvider ends
+2017-09-28 15:35:15,635  INFO com.epam.lab.test.DataProviderClass:42 - dataProvider starts
+2017-09-28 15:35:17,115  INFO com.epam.lab.test.DataProviderClass:46 - data was successfully readed.
+2017-09-28 15:35:17,115  INFO com.epam.lab.test.DataProviderClass:52 - dataProvider ends
+2017-09-28 15:35:17,141  INFO com.epam.lab.test.GmailTest:21 - test stars
+2017-09-28 15:35:17,141  INFO com.epam.lab.test.GmailTest:21 - test stars
+2017-09-28 15:35:38,442  INFO com.epam.lab.test.GmailTest:24 - login test pass
+2017-09-28 15:35:39,270  INFO com.epam.lab.test.GmailTest:24 - login test pass
+2017-09-28 15:35:42,286  INFO com.epam.lab.test.GmailTest:28 - MessageSending test pass
+2017-09-28 15:35:43,233  INFO com.epam.lab.test.GmailTest:31 - Message is in SendPage test pass
+2017-09-28 15:35:44,451  INFO com.epam.lab.test.GmailTest:33 - MessageDeleting test pass
+2017-09-28 15:35:44,452  INFO com.epam.lab.test.GmailTest:34 - test ends
+2017-09-28 15:35:44,886  INFO com.epam.lab.test.GmailTest:28 - MessageSending test pass
+2017-09-28 15:35:45,955  INFO com.epam.lab.test.GmailTest:31 - Message is in SendPage test pass
+2017-09-28 15:35:46,768  INFO com.epam.lab.test.GmailTest:33 - MessageDeleting test pass
+2017-09-28 15:35:46,769  INFO com.epam.lab.test.GmailTest:34 - test ends
+2017-09-28 15:43:11,581  INFO com.epam.lab.test.DataProviderClass:42 - dataProvider starts
+2017-09-28 15:43:13,226  INFO com.epam.lab.test.DataProviderClass:46 - data was successfully readed.
+2017-09-28 15:43:13,227  INFO com.epam.lab.test.DataProviderClass:52 - dataProvider ends
+2017-09-28 15:43:13,259  INFO com.epam.lab.test.GmailTest:21 - test stars
+2017-09-28 15:43:13,259  INFO com.epam.lab.test.GmailTest:21 - test stars
+2017-09-28 15:56:17,099  INFO com.epam.lab.test.DataProviderClass:42 - dataProvider starts
+2017-09-28 15:58:17,528  INFO com.epam.lab.test.DataProviderClass:42 - dataProvider starts
+2017-09-28 15:58:20,553  INFO com.epam.lab.test.DataProviderClass:46 - data was successfully readed.
+2017-09-28 15:58:20,554  INFO com.epam.lab.test.DataProviderClass:52 - dataProvider ends
+2017-09-28 15:58:20,590  INFO com.epam.lab.test.GmailTest:21 - test stars
+2017-09-28 15:58:20,592  INFO com.epam.lab.test.GmailTest:21 - test stars
+2017-09-28 16:11:51,124  INFO com.epam.lab.test.DataProviderClass:42 - dataProvider starts
+2017-09-28 16:11:53,323  INFO com.epam.lab.test.DataProviderClass:46 - data was successfully readed.
+2017-09-28 16:11:53,323  INFO com.epam.lab.test.DataProviderClass:52 - dataProvider ends
+2017-09-28 16:11:53,349  INFO com.epam.lab.test.GmailTest:21 - test stars
+2017-09-28 16:11:53,349  INFO com.epam.lab.test.GmailTest:21 - test stars
+2017-09-28 16:39:58,591  INFO com.epam.lab.util.TestNGListener:41 - test starts GmailAdvanced onThu Sep 28 16:39:58 EEST 2017
+2017-09-28 16:39:58,618  INFO com.epam.lab.test.DataProviderClass:42 - dataProvider starts
+2017-09-28 16:40:00,561  INFO com.epam.lab.test.DataProviderClass:46 - data was successfully readed.
+2017-09-28 16:40:00,563  INFO com.epam.lab.test.DataProviderClass:52 - dataProvider ends
+2017-09-28 16:40:00,584  INFO com.epam.lab.util.TestNGListener:16 - test starts null
+2017-09-28 16:40:00,584  INFO com.epam.lab.util.TestNGListener:16 - test starts null
+2017-09-28 16:40:00,590  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 16:40:00,590  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 16:40:21,833  INFO com.epam.lab.test.GmailTest:28 - login test pass
+2017-09-28 16:40:25,293  INFO com.epam.lab.test.GmailTest:28 - login test pass
+2017-09-28 16:40:27,585  INFO com.epam.lab.test.GmailTest:32 - MessageSending test pass
+2017-09-28 16:40:28,566  INFO com.epam.lab.test.GmailTest:35 - Message is in SendPage test pass
+2017-09-28 16:40:28,982  INFO com.epam.lab.test.GmailTest:32 - MessageSending test pass
+2017-09-28 16:40:29,431  INFO com.epam.lab.test.GmailTest:37 - MessageDeleting test pass
+2017-09-28 16:40:29,432  INFO com.epam.lab.test.GmailTest:38 - test ends
+2017-09-28 16:40:29,433  INFO com.epam.lab.util.TestNGListener:21 - test passed null during time 28850
+2017-09-28 16:40:30,008  INFO com.epam.lab.test.GmailTest:35 - Message is in SendPage test pass
+2017-09-28 16:40:31,001  INFO com.epam.lab.test.GmailTest:37 - MessageDeleting test pass
+2017-09-28 16:40:31,001  INFO com.epam.lab.test.GmailTest:38 - test ends
+2017-09-28 16:40:31,002  INFO com.epam.lab.util.TestNGListener:21 - test passed null during time 30420
+2017-09-28 16:40:32,083  INFO com.epam.lab.util.TestNGListener:46 - test ends GmailAdvanced onThu Sep 28 16:40:32 EEST 2017
+2017-09-28 16:58:47,945  INFO com.epam.lab.util.TestNGListener:41 - test starts Gmail Test onThu Sep 28 16:58:47 EEST 2017
+2017-09-28 16:58:47,975  INFO com.epam.lab.test.DataProviderClass:42 - dataProvider starts
+2017-09-28 16:58:50,321  INFO com.epam.lab.test.DataProviderClass:46 - data was successfully readed.
+2017-09-28 16:58:50,326  INFO com.epam.lab.test.DataProviderClass:52 - dataProvider ends
+2017-09-28 16:58:50,354  INFO com.epam.lab.util.TestNGListener:16 - test starts null
+2017-09-28 16:58:50,354  INFO com.epam.lab.util.TestNGListener:16 - test starts null
+2017-09-28 16:58:50,361  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 16:58:50,376  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 16:59:15,367  INFO com.epam.lab.test.GmailTest:28 - login test pass
+2017-09-28 16:59:18,687  INFO com.epam.lab.test.GmailTest:32 - MessageSending test pass
+2017-09-28 16:59:18,770  INFO com.epam.lab.test.GmailTest:28 - login test pass
+2017-09-28 16:59:19,761  INFO com.epam.lab.test.GmailTest:35 - Message is in SendPage test pass
+2017-09-28 16:59:21,129  INFO com.epam.lab.test.GmailTest:37 - MessageDeleting test pass
+2017-09-28 16:59:21,130  INFO com.epam.lab.test.GmailTest:38 - test ends
+2017-09-28 16:59:21,131  INFO com.epam.lab.util.TestNGListener:21 - test passed null during time 30778
+2017-09-28 16:59:22,143  INFO com.epam.lab.test.GmailTest:32 - MessageSending test pass
+2017-09-28 16:59:22,872  INFO com.epam.lab.test.GmailTest:35 - Message is in SendPage test pass
+2017-09-28 16:59:23,763  INFO com.epam.lab.test.GmailTest:37 - MessageDeleting test pass
+2017-09-28 16:59:23,764  INFO com.epam.lab.test.GmailTest:38 - test ends
+2017-09-28 16:59:23,764  INFO com.epam.lab.util.TestNGListener:21 - test passed null during time 33412
+2017-09-28 16:59:24,736  INFO com.epam.lab.util.TestNGListener:46 - test ends Gmail Test onThu Sep 28 16:59:24 EEST 2017
+2017-09-28 17:02:47,540  INFO com.epam.lab.util.TestNGListener:41 - test starts Gmail Test onThu Sep 28 17:02:47 EEST 2017
+2017-09-28 17:02:47,567  INFO com.epam.lab.test.DataProviderClass:42 - dataProvider starts
+2017-09-28 17:02:49,790  INFO com.epam.lab.test.DataProviderClass:46 - data was successfully readed.
+2017-09-28 17:02:49,792  INFO com.epam.lab.test.DataProviderClass:52 - dataProvider ends
+2017-09-28 17:02:49,848  INFO com.epam.lab.util.TestNGListener:16 - test starts null
+2017-09-28 17:02:49,848  INFO com.epam.lab.util.TestNGListener:16 - test starts null
+2017-09-28 17:02:49,858  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 17:02:49,858  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 17:03:15,895  INFO com.epam.lab.test.GmailTest:28 - login test pass
+2017-09-28 17:03:18,053  INFO com.epam.lab.test.GmailTest:28 - login test pass
+2017-09-28 17:03:19,706  INFO com.epam.lab.test.GmailTest:32 - MessageSending test pass
+2017-09-28 17:03:20,819  INFO com.epam.lab.test.GmailTest:35 - Message is in SendPage test pass
+2017-09-28 17:03:21,123  INFO com.epam.lab.test.GmailTest:32 - MessageSending test pass
+2017-09-28 17:03:22,023  INFO com.epam.lab.test.GmailTest:37 - MessageDeleting test pass
+2017-09-28 17:03:22,024  INFO com.epam.lab.test.GmailTest:38 - test ends
+2017-09-28 17:03:22,025  INFO com.epam.lab.util.TestNGListener:21 - test passed null during time 32177
+2017-09-28 17:03:22,262  INFO com.epam.lab.test.GmailTest:35 - Message is in SendPage test pass
+2017-09-28 17:03:23,320  INFO com.epam.lab.test.GmailTest:37 - MessageDeleting test pass
+2017-09-28 17:03:23,321  INFO com.epam.lab.test.GmailTest:38 - test ends
+2017-09-28 17:03:23,321  INFO com.epam.lab.util.TestNGListener:21 - test passed null during time 33474
+2017-09-28 17:03:24,327  INFO com.epam.lab.util.TestNGListener:46 - test ends Gmail Test onThu Sep 28 17:03:24 EEST 2017
+2017-09-28 17:03:54,922  INFO com.epam.lab.util.TestNGListener:41 - test starts Gmail Test onThu Sep 28 17:03:54 EEST 2017
+2017-09-28 17:03:54,966  INFO com.epam.lab.test.DataProviderClass:42 - dataProvider starts
+2017-09-28 17:03:57,117  INFO com.epam.lab.test.DataProviderClass:46 - data was successfully readed.
+2017-09-28 17:03:57,119  INFO com.epam.lab.test.DataProviderClass:52 - dataProvider ends
+2017-09-28 17:03:57,220  INFO com.epam.lab.util.TestNGListener:16 - test starts null
+2017-09-28 17:03:57,289  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 17:03:57,309  INFO com.epam.lab.util.TestNGListener:16 - test starts null
+2017-09-28 17:03:57,320  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 17:12:19,768  INFO com.epam.lab.util.TestNGListener:41 - test starts Gmail Test on Thu Sep 28 17:12:19 EEST 2017
+2017-09-28 17:12:19,773  INFO com.epam.lab.util.TestNGListener:41 - test starts Gmail Test on Thu Sep 28 17:12:19 EEST 2017
+2017-09-28 17:12:19,796  INFO com.epam.lab.test.DataProviderClass:42 - dataProvider starts
+2017-09-28 17:12:22,028  INFO com.epam.lab.test.DataProviderClass:46 - data was successfully readed.
+2017-09-28 17:12:22,028  INFO com.epam.lab.test.DataProviderClass:52 - dataProvider ends
+2017-09-28 17:12:22,057  INFO com.epam.lab.util.TestNGListener:16 - test starts null
+2017-09-28 17:12:22,058  INFO com.epam.lab.util.TestNGListener:16 - test starts null
+2017-09-28 17:12:22,059  INFO com.epam.lab.util.TestNGListener:16 - test starts null
+2017-09-28 17:12:22,061  INFO com.epam.lab.util.TestNGListener:16 - test starts null
+2017-09-28 17:12:22,067  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 17:12:22,077  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 17:12:44,579  INFO com.epam.lab.test.GmailTest:28 - login test pass
+2017-09-28 17:12:47,500  INFO com.epam.lab.test.GmailTest:28 - login test pass
+2017-09-28 17:12:48,129  INFO com.epam.lab.test.GmailTest:32 - MessageSending test pass
+2017-09-28 17:12:49,176  INFO com.epam.lab.test.GmailTest:35 - Message is in SendPage test pass
+2017-09-28 17:12:50,618  INFO com.epam.lab.test.GmailTest:37 - MessageDeleting test pass
+2017-09-28 17:12:50,620  INFO com.epam.lab.test.GmailTest:38 - test ends
+2017-09-28 17:12:50,620  INFO com.epam.lab.util.TestNGListener:21 - test passed null during time 28564
+2017-09-28 17:12:50,620  INFO com.epam.lab.util.TestNGListener:21 - test passed null during time 28564
+2017-09-28 17:12:51,287  INFO com.epam.lab.test.GmailTest:32 - MessageSending test pass
+2017-09-28 17:12:52,733  INFO com.epam.lab.test.GmailTest:35 - Message is in SendPage test pass
+2017-09-28 17:12:53,467  INFO com.epam.lab.test.GmailTest:37 - MessageDeleting test pass
+2017-09-28 17:12:53,468  INFO com.epam.lab.test.GmailTest:38 - test ends
+2017-09-28 17:12:53,468  INFO com.epam.lab.util.TestNGListener:21 - test passed null during time 31413
+2017-09-28 17:12:53,468  INFO com.epam.lab.util.TestNGListener:21 - test passed null during time 31413
+2017-09-28 17:12:54,404  INFO com.epam.lab.util.TestNGListener:46 - test ends Gmail Test onThu Sep 28 17:12:54 EEST 2017
+2017-09-28 17:12:54,404  INFO com.epam.lab.util.TestNGListener:46 - test ends Gmail Test onThu Sep 28 17:12:54 EEST 2017
+2017-09-28 17:35:01,519  INFO com.epam.lab.util.TestNGListener:42 - test starts Gmail Test on Thu Sep 28 17:35:01 EEST 2017
+2017-09-28 17:35:01,566  INFO com.epam.lab.test.DataProviderClass:42 - dataProvider starts
+2017-09-28 17:35:03,862  INFO com.epam.lab.test.DataProviderClass:46 - data was successfully readed.
+2017-09-28 17:35:03,863  INFO com.epam.lab.test.DataProviderClass:52 - dataProvider ends
+2017-09-28 17:35:03,893  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 17:35:03,896  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 17:35:03,902  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 17:35:03,905  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 17:35:25,756  INFO com.epam.lab.test.GmailTest:28 - login test pass
+2017-09-28 17:35:29,230  INFO com.epam.lab.test.GmailTest:28 - login test pass
+2017-09-28 17:35:33,086  INFO com.epam.lab.test.GmailTest:32 - MessageSending test pass
+2017-09-28 17:35:33,855  INFO com.epam.lab.test.GmailTest:35 - Message is in SendPage test pass
+2017-09-28 17:35:33,880  INFO com.epam.lab.test.GmailTest:32 - MessageSending test pass
+2017-09-28 17:35:34,841  INFO com.epam.lab.test.GmailTest:37 - MessageDeleting test pass
+2017-09-28 17:35:34,841  INFO com.epam.lab.test.GmailTest:38 - test ends
+2017-09-28 17:35:34,842  INFO com.epam.lab.util.TestNGListener:22 - test passed null during time 30946
+2017-09-28 17:35:34,933  INFO com.epam.lab.test.GmailTest:35 - Message is in SendPage test pass
+2017-09-28 17:35:35,830  INFO com.epam.lab.test.GmailTest:37 - MessageDeleting test pass
+2017-09-28 17:35:35,831  INFO com.epam.lab.test.GmailTest:38 - test ends
+2017-09-28 17:35:35,831  INFO com.epam.lab.util.TestNGListener:22 - test passed null during time 31940
+2017-09-28 17:35:37,059  INFO com.epam.lab.util.TestNGListener:47 - test ends Gmail Test onThu Sep 28 17:35:37 EEST 2017
+2017-09-28 17:39:34,158  INFO com.epam.lab.util.TestNGListener:42 - test starts Gmail Test on Thu Sep 28 17:39:34 EEST 2017
+2017-09-28 17:39:34,185  INFO com.epam.lab.test.DataProviderClass:42 - dataProvider starts
+2017-09-28 17:39:35,892  INFO com.epam.lab.test.DataProviderClass:46 - data was successfully readed.
+2017-09-28 17:39:35,893  INFO com.epam.lab.test.DataProviderClass:52 - dataProvider ends
+2017-09-28 17:39:35,920  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 17:39:35,920  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 17:39:35,934  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 17:39:35,939  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 17:39:58,572  INFO com.epam.lab.test.GmailTest:28 - login test pass
+2017-09-28 17:39:59,410  INFO com.epam.lab.test.GmailTest:28 - login test pass
+2017-09-28 17:40:02,520  INFO com.epam.lab.test.GmailTest:32 - MessageSending test pass
+2017-09-28 17:40:03,749  INFO com.epam.lab.test.GmailTest:35 - Message is in SendPage test pass
+2017-09-28 17:40:04,632  INFO com.epam.lab.test.GmailTest:37 - MessageDeleting test pass
+2017-09-28 17:40:04,633  INFO com.epam.lab.test.GmailTest:38 - test ends
+2017-09-28 17:40:04,634  INFO com.epam.lab.util.TestNGListener:22 - test passed null during time 28714
+2017-09-28 17:40:04,774  INFO com.epam.lab.test.GmailTest:32 - MessageSending test pass
+2017-09-28 17:40:06,025  INFO com.epam.lab.test.GmailTest:35 - Message is in SendPage test pass
+2017-09-28 17:40:06,878  INFO com.epam.lab.test.GmailTest:37 - MessageDeleting test pass
+2017-09-28 17:40:06,878  INFO com.epam.lab.test.GmailTest:38 - test ends
+2017-09-28 17:40:06,879  INFO com.epam.lab.util.TestNGListener:22 - test passed null during time 30961
+2017-09-28 17:40:07,809  INFO com.epam.lab.util.TestNGListener:47 - test ends Gmail Test onThu Sep 28 17:40:07 EEST 2017
+2017-09-28 17:46:54,398  INFO com.epam.lab.util.TestNGListener:42 - test starts Gmail Test on Thu Sep 28 17:46:54 EEST 2017
+2017-09-28 17:46:54,422  INFO com.epam.lab.test.DataProviderClass:42 - dataProvider starts
+2017-09-28 17:46:56,306  INFO com.epam.lab.test.DataProviderClass:46 - data was successfully readed.
+2017-09-28 17:46:56,307  INFO com.epam.lab.test.DataProviderClass:52 - dataProvider ends
+2017-09-28 17:46:56,324  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 17:46:56,324  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 17:46:56,329  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 17:46:56,329  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 17:47:14,234  INFO com.epam.lab.test.GmailTest:28 - login test pass
+2017-09-28 17:47:16,149  INFO com.epam.lab.test.GmailTest:28 - login test pass
+2017-09-28 17:47:22,053  INFO com.epam.lab.test.GmailTest:32 - MessageSending test pass
+2017-09-28 17:47:22,740  INFO com.epam.lab.test.GmailTest:32 - MessageSending test pass
+2017-09-28 17:47:23,181  INFO com.epam.lab.test.GmailTest:35 - Message is in SendPage test pass
+2017-09-28 17:47:23,724  INFO com.epam.lab.test.GmailTest:35 - Message is in SendPage test pass
+2017-09-28 17:47:24,263  INFO com.epam.lab.test.GmailTest:37 - MessageDeleting test pass
+2017-09-28 17:47:24,264  INFO com.epam.lab.test.GmailTest:38 - test ends
+2017-09-28 17:47:24,266  INFO com.epam.lab.util.TestNGListener:22 - test passed null during time 27943
+2017-09-28 17:47:24,867  INFO com.epam.lab.test.GmailTest:37 - MessageDeleting test pass
+2017-09-28 17:47:24,867  INFO com.epam.lab.test.GmailTest:38 - test ends
+2017-09-28 17:47:24,868  INFO com.epam.lab.util.TestNGListener:22 - test passed null during time 28545
+2017-09-28 17:47:25,805  INFO com.epam.lab.test.DataProviderClass:42 - dataProvider starts
+2017-09-28 17:47:25,842  INFO com.epam.lab.test.DataProviderClass:46 - data was successfully readed.
+2017-09-28 17:47:25,842  INFO com.epam.lab.test.DataProviderClass:52 - dataProvider ends
+2017-09-28 17:47:25,843  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 17:47:25,843  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 17:47:25,844  INFO com.epam.lab.test.GmailTestThatFails:26 - test stars
+2017-09-28 17:47:25,844  INFO com.epam.lab.test.GmailTestThatFails:26 - test stars
+2017-09-28 17:47:45,432  INFO com.epam.lab.util.TestNGListener:27 - test failed null
+2017-09-28 17:47:46,432  INFO com.epam.lab.util.TestNGListener:27 - test failed null
+2017-09-28 17:47:47,319  INFO com.epam.lab.util.TestNGListener:47 - test ends Gmail Test onThu Sep 28 17:47:47 EEST 2017
+2017-09-28 17:51:31,471  INFO com.epam.lab.util.TestNGListener:42 - test starts Gmail Test on Thu Sep 28 17:51:31 EEST 2017
+2017-09-28 17:51:31,506  INFO com.epam.lab.test.DataProviderClass:42 - dataProvider starts
+2017-09-28 17:51:33,893  INFO com.epam.lab.test.DataProviderClass:46 - data was successfully readed.
+2017-09-28 17:51:33,893  INFO com.epam.lab.test.DataProviderClass:52 - dataProvider ends
+2017-09-28 17:51:33,912  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 17:51:33,912  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 17:51:33,918  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 17:51:33,918  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 17:51:52,099  INFO com.epam.lab.test.GmailTest:28 - login test pass
+2017-09-28 17:51:56,016  INFO com.epam.lab.test.GmailTest:28 - login test pass
+2017-09-28 17:52:00,006  INFO com.epam.lab.test.GmailTest:32 - MessageSending test pass
+2017-09-28 17:52:01,054  INFO com.epam.lab.test.GmailTest:35 - Message is in SendPage test pass
+2017-09-28 17:52:02,017  INFO com.epam.lab.test.GmailTest:37 - MessageDeleting test pass
+2017-09-28 17:52:02,017  INFO com.epam.lab.test.GmailTest:38 - test ends
+2017-09-28 17:52:02,018  INFO com.epam.lab.util.TestNGListener:22 - test passed null during time 28106
+2017-09-28 17:52:02,279  INFO com.epam.lab.test.GmailTest:32 - MessageSending test pass
+2017-09-28 17:52:03,013  INFO com.epam.lab.test.GmailTest:35 - Message is in SendPage test pass
+2017-09-28 17:52:04,020  INFO com.epam.lab.test.GmailTest:37 - MessageDeleting test pass
+2017-09-28 17:52:04,021  INFO com.epam.lab.test.GmailTest:38 - test ends
+2017-09-28 17:52:04,021  INFO com.epam.lab.util.TestNGListener:22 - test passed null during time 30110
+2017-09-28 17:52:04,980  INFO com.epam.lab.test.DataProviderClass:42 - dataProvider starts
+2017-09-28 17:52:05,022  INFO com.epam.lab.test.DataProviderClass:46 - data was successfully readed.
+2017-09-28 17:52:05,023  INFO com.epam.lab.test.DataProviderClass:52 - dataProvider ends
+2017-09-28 17:52:05,024  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 17:52:05,025  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 17:52:05,025  INFO com.epam.lab.test.GmailTestThatFails:26 - test stars
+2017-09-28 17:52:05,025  INFO com.epam.lab.test.GmailTestThatFails:26 - test stars
+2017-09-28 17:52:24,539  INFO com.epam.lab.util.TestNGListener:27 - test failed null
+2017-09-28 17:52:25,977  INFO com.epam.lab.util.TestNGListener:27 - test failed null
+2017-09-28 17:52:26,851  INFO com.epam.lab.util.TestNGListener:47 - test ends Gmail Test onThu Sep 28 17:52:26 EEST 2017
+2017-09-28 18:31:36,036  INFO com.epam.lab.util.TestNGListener:42 - test starts Gmail Test on Thu Sep 28 18:31:36 EEST 2017
+2017-09-28 18:31:36,065  INFO com.epam.lab.test.DataProviderClass:42 - dataProvider starts
+2017-09-28 18:31:37,897  INFO com.epam.lab.test.DataProviderClass:46 - data was successfully readed.
+2017-09-28 18:31:37,898  INFO com.epam.lab.test.DataProviderClass:52 - dataProvider ends
+2017-09-28 18:31:37,917  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 18:31:37,918  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 18:31:37,924  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 18:31:37,924  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 18:31:56,498  INFO com.epam.lab.test.GmailTest:28 - login test pass
+2017-09-28 18:32:03,317  INFO com.epam.lab.test.GmailTest:28 - login test pass
+2017-09-28 18:32:05,218  INFO com.epam.lab.test.GmailTest:32 - MessageSending test pass
+2017-09-28 18:32:06,351  INFO com.epam.lab.test.GmailTest:35 - Message is in SendPage test pass
+2017-09-28 18:32:06,978  INFO com.epam.lab.test.GmailTest:32 - MessageSending test pass
+2017-09-28 18:32:07,437  INFO com.epam.lab.test.GmailTest:37 - MessageDeleting test pass
+2017-09-28 18:32:07,437  INFO com.epam.lab.test.GmailTest:38 - test ends
+2017-09-28 18:32:07,439  INFO com.epam.lab.util.TestNGListener:22 - test passed null during time 29523
+2017-09-28 18:32:08,086  INFO com.epam.lab.test.GmailTest:35 - Message is in SendPage test pass
+2017-09-28 18:32:09,134  INFO com.epam.lab.test.GmailTest:37 - MessageDeleting test pass
+2017-09-28 18:32:09,134  INFO com.epam.lab.test.GmailTest:38 - test ends
+2017-09-28 18:32:09,135  INFO com.epam.lab.util.TestNGListener:22 - test passed null during time 31218
+2017-09-28 18:32:10,314  INFO com.epam.lab.test.DataProviderClass:42 - dataProvider starts
+2017-09-28 18:32:10,352  INFO com.epam.lab.test.DataProviderClass:46 - data was successfully readed.
+2017-09-28 18:32:10,352  INFO com.epam.lab.test.DataProviderClass:52 - dataProvider ends
+2017-09-28 18:32:10,353  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 18:32:10,353  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 18:32:10,354  INFO com.epam.lab.test.GmailTestThatFails:26 - test stars
+2017-09-28 18:32:10,355  INFO com.epam.lab.test.GmailTestThatFails:26 - test stars
+2017-09-28 18:32:30,182  INFO com.epam.lab.util.TestNGListener:27 - test failed null
+2017-09-28 18:32:33,973  INFO com.epam.lab.util.TestNGListener:27 - test failed null
+2017-09-28 18:32:34,835  INFO com.epam.lab.util.TestNGListener:47 - test ends Gmail Test onThu Sep 28 18:32:34 EEST 2017
+2017-09-28 18:36:41,265  INFO com.epam.lab.util.TestNGListener:42 - test starts Gmail Test on Thu Sep 28 18:36:41 EEST 2017
+2017-09-28 18:36:41,292  INFO com.epam.lab.test.DataProviderClass:42 - dataProvider starts
+2017-09-28 18:36:43,032  INFO com.epam.lab.test.DataProviderClass:46 - data was successfully readed.
+2017-09-28 18:36:43,033  INFO com.epam.lab.test.DataProviderClass:52 - dataProvider ends
+2017-09-28 18:36:43,061  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 18:36:43,061  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 18:36:43,070  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 18:36:43,070  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 18:36:52,779  INFO org.apache.http.impl.execchain.RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {}->http://localhost:10961: Permission denied: connect
+2017-09-28 18:36:52,779  INFO org.apache.http.impl.execchain.RetryExec:113 - Retrying request to {}->http://localhost:10961
+2017-09-28 18:36:52,781  INFO org.apache.http.impl.execchain.RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {}->http://localhost:10961: Permission denied: connect
+2017-09-28 18:36:52,781  INFO org.apache.http.impl.execchain.RetryExec:113 - Retrying request to {}->http://localhost:10961
+2017-09-28 18:36:52,782  INFO org.apache.http.impl.execchain.RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {}->http://localhost:10961: Permission denied: connect
+2017-09-28 18:36:52,783  INFO org.apache.http.impl.execchain.RetryExec:113 - Retrying request to {}->http://localhost:10961
+2017-09-28 18:36:52,794  INFO com.epam.lab.util.TestNGListener:27 - test failed null
+2017-09-28 18:36:52,837  INFO org.apache.http.impl.execchain.RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {}->http://localhost:10961: Permission denied: connect
+2017-09-28 18:36:52,839  INFO org.apache.http.impl.execchain.RetryExec:113 - Retrying request to {}->http://localhost:10961
+2017-09-28 18:36:52,840  INFO org.apache.http.impl.execchain.RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {}->http://localhost:10961: Permission denied: connect
+2017-09-28 18:36:52,840  INFO org.apache.http.impl.execchain.RetryExec:113 - Retrying request to {}->http://localhost:10961
+2017-09-28 18:36:52,842  INFO org.apache.http.impl.execchain.RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {}->http://localhost:10961: Permission denied: connect
+2017-09-28 18:36:52,842  INFO org.apache.http.impl.execchain.RetryExec:113 - Retrying request to {}->http://localhost:10961
+2017-09-28 18:37:16,667  INFO com.epam.lab.util.TestNGListener:42 - test starts Gmail Test on Thu Sep 28 18:37:16 EEST 2017
+2017-09-28 18:37:16,695  INFO com.epam.lab.test.DataProviderClass:42 - dataProvider starts
+2017-09-28 18:37:18,420  INFO com.epam.lab.test.DataProviderClass:46 - data was successfully readed.
+2017-09-28 18:37:18,421  INFO com.epam.lab.test.DataProviderClass:52 - dataProvider ends
+2017-09-28 18:37:18,450  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 18:37:18,450  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 18:37:18,458  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 18:37:18,458  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 18:37:36,156  INFO com.epam.lab.test.GmailTest:28 - login test pass
+2017-09-28 18:37:43,637  INFO com.epam.lab.test.GmailTest:28 - login test pass
+2017-09-28 18:37:44,732  INFO com.epam.lab.test.GmailTest:32 - MessageSending test pass
+2017-09-28 18:37:45,792  INFO com.epam.lab.test.GmailTest:35 - Message is in SendPage test pass
+2017-09-28 18:37:47,360  INFO com.epam.lab.test.GmailTest:37 - MessageDeleting test pass
+2017-09-28 18:37:47,360  INFO com.epam.lab.test.GmailTest:38 - test ends
+2017-09-28 18:37:47,361  INFO com.epam.lab.util.TestNGListener:22 - test passed null during time 28911
+2017-09-28 18:37:47,784  INFO com.epam.lab.test.GmailTest:32 - MessageSending test pass
+2017-09-28 18:37:48,861  INFO com.epam.lab.test.GmailTest:35 - Message is in SendPage test pass
+2017-09-28 18:37:49,741  INFO com.epam.lab.test.GmailTest:37 - MessageDeleting test pass
+2017-09-28 18:37:49,742  INFO com.epam.lab.test.GmailTest:38 - test ends
+2017-09-28 18:37:49,742  INFO com.epam.lab.util.TestNGListener:22 - test passed null during time 31293
+2017-09-28 18:37:50,696  INFO com.epam.lab.test.DataProviderClass:42 - dataProvider starts
+2017-09-28 18:37:50,742  INFO com.epam.lab.test.DataProviderClass:46 - data was successfully readed.
+2017-09-28 18:37:50,743  INFO com.epam.lab.test.DataProviderClass:52 - dataProvider ends
+2017-09-28 18:37:50,744  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 18:37:50,744  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 18:37:50,745  INFO com.epam.lab.test.GmailTestThatFails:26 - test stars
+2017-09-28 18:37:50,745  INFO com.epam.lab.test.GmailTestThatFails:26 - test stars
+2017-09-28 18:38:11,381  INFO com.epam.lab.util.TestNGListener:27 - test failed null
+2017-09-28 18:38:11,927  INFO com.epam.lab.util.TestNGListener:27 - test failed null
+2017-09-28 18:38:12,785  INFO com.epam.lab.util.TestNGListener:47 - test ends Gmail Test onThu Sep 28 18:38:12 EEST 2017
+2017-09-28 19:00:02,645  INFO com.epam.lab.util.TestNGListener:42 - test starts Gmail Test on Thu Sep 28 19:00:02 EEST 2017
+2017-09-28 19:00:02,670  INFO com.epam.lab.test.DataProviderClass:42 - dataProvider starts
+2017-09-28 19:00:04,357  INFO com.epam.lab.test.DataProviderClass:46 - data was successfully readed.
+2017-09-28 19:00:04,358  INFO com.epam.lab.test.DataProviderClass:52 - dataProvider ends
+2017-09-28 19:00:04,375  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 19:00:04,375  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 19:00:04,381  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 19:00:04,381  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 19:00:23,754  INFO com.epam.lab.test.GmailTest:28 - login test pass
+2017-09-28 19:00:29,677  INFO com.epam.lab.test.GmailTest:28 - login test pass
+2017-09-28 19:00:33,181  INFO com.epam.lab.test.GmailTest:32 - MessageSending test pass
+2017-09-28 19:00:34,091  INFO com.epam.lab.test.GmailTest:35 - Message is in SendPage test pass
+2017-09-28 19:00:35,105  INFO com.epam.lab.test.GmailTest:37 - MessageDeleting test pass
+2017-09-28 19:00:35,106  INFO com.epam.lab.test.GmailTest:38 - test ends
+2017-09-28 19:00:35,106  INFO com.epam.lab.util.TestNGListener:22 - test passed null during time 30732
+2017-09-28 19:00:35,756  INFO com.epam.lab.test.GmailTest:32 - MessageSending test pass
+2017-09-28 19:00:36,597  INFO com.epam.lab.test.GmailTest:35 - Message is in SendPage test pass
+2017-09-28 19:00:37,340  INFO com.epam.lab.test.GmailTest:37 - MessageDeleting test pass
+2017-09-28 19:00:37,340  INFO com.epam.lab.test.GmailTest:38 - test ends
+2017-09-28 19:00:37,340  INFO com.epam.lab.util.TestNGListener:22 - test passed null during time 32966
+2017-09-28 19:00:38,352  INFO com.epam.lab.test.DataProviderClass:42 - dataProvider starts
+2017-09-28 19:00:38,397  INFO com.epam.lab.test.DataProviderClass:46 - data was successfully readed.
+2017-09-28 19:00:38,397  INFO com.epam.lab.test.DataProviderClass:52 - dataProvider ends
+2017-09-28 19:00:38,399  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 19:00:38,399  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 19:00:38,399  INFO com.epam.lab.test.GmailTestThatFails:26 - test stars
+2017-09-28 19:00:38,399  INFO com.epam.lab.test.GmailTestThatFails:26 - test stars
+2017-09-28 19:00:57,420  INFO com.epam.lab.util.TestNGListener:27 - test failed null
+2017-09-28 19:00:58,776  INFO com.epam.lab.util.TestNGListener:27 - test failed null
+2017-09-28 19:00:59,628  INFO com.epam.lab.util.TestNGListener:47 - test ends Gmail Test onThu Sep 28 19:00:59 EEST 2017
+2017-09-28 19:02:55,903  INFO com.epam.lab.util.TestNGListener:42 - test starts Gmail Test on Thu Sep 28 19:02:55 EEST 2017
+2017-09-28 19:02:55,941  INFO com.epam.lab.test.DataProviderClass:42 - dataProvider starts
+2017-09-28 19:02:57,692  INFO com.epam.lab.test.DataProviderClass:46 - data was successfully readed.
+2017-09-28 19:02:57,693  INFO com.epam.lab.test.DataProviderClass:52 - dataProvider ends
+2017-09-28 19:02:57,722  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 19:02:57,734  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 19:02:57,735  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 19:02:57,735  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 19:03:20,889  INFO com.epam.lab.test.GmailTest:28 - login test pass
+2017-09-28 19:03:21,058  INFO com.epam.lab.test.GmailTest:28 - login test pass
+2017-09-28 19:03:28,385  INFO com.epam.lab.test.GmailTest:32 - MessageSending test pass
+2017-09-28 19:03:28,831  INFO com.epam.lab.test.GmailTest:32 - MessageSending test pass
+2017-09-28 19:03:29,879  INFO com.epam.lab.test.GmailTest:35 - Message is in SendPage test pass
+2017-09-28 19:03:29,912  INFO com.epam.lab.test.GmailTest:35 - Message is in SendPage test pass
+2017-09-28 19:03:31,515  INFO com.epam.lab.test.GmailTest:37 - MessageDeleting test pass
+2017-09-28 19:03:31,515  INFO com.epam.lab.test.GmailTest:38 - test ends
+2017-09-28 19:03:31,518  INFO com.epam.lab.util.TestNGListener:22 - test passed null during time 33798
+2017-09-28 19:03:31,551  INFO com.epam.lab.test.GmailTest:37 - MessageDeleting test pass
+2017-09-28 19:03:31,551  INFO com.epam.lab.test.GmailTest:38 - test ends
+2017-09-28 19:03:31,552  INFO com.epam.lab.util.TestNGListener:22 - test passed null during time 33832
+2017-09-28 19:03:33,416  INFO com.epam.lab.test.DataProviderClass:42 - dataProvider starts
+2017-09-28 19:03:33,461  INFO com.epam.lab.test.DataProviderClass:46 - data was successfully readed.
+2017-09-28 19:03:33,461  INFO com.epam.lab.test.DataProviderClass:52 - dataProvider ends
+2017-09-28 19:03:33,463  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 19:03:33,463  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 19:03:33,465  INFO com.epam.lab.test.GmailTestThatFails:26 - test stars
+2017-09-28 19:03:33,464  INFO com.epam.lab.test.GmailTestThatFails:26 - test stars
+2017-09-28 19:03:54,284  INFO com.epam.lab.util.TestNGListener:27 - test failed null
+2017-09-28 19:03:56,113  INFO com.epam.lab.util.TestNGListener:27 - test failed null
+2017-09-28 19:03:56,973  INFO com.epam.lab.util.TestNGListener:47 - test ends Gmail Test onThu Sep 28 19:03:56 EEST 2017
+2017-09-28 19:05:06,493  INFO com.epam.lab.util.TestNGListener:42 - test starts Gmail Test on Thu Sep 28 19:05:06 EEST 2017
+2017-09-28 19:05:06,523  INFO com.epam.lab.test.DataProviderClass:42 - dataProvider starts
+2017-09-28 19:05:08,638  INFO com.epam.lab.test.DataProviderClass:46 - data was successfully readed.
+2017-09-28 19:05:08,638  INFO com.epam.lab.test.DataProviderClass:52 - dataProvider ends
+2017-09-28 19:05:08,662  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 19:05:08,663  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 19:05:08,671  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 19:05:08,671  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 19:05:30,118  INFO com.epam.lab.test.GmailTest:28 - login test pass
+2017-09-28 19:05:35,073  INFO com.epam.lab.test.GmailTest:32 - MessageSending test pass
+2017-09-28 19:05:35,316  INFO com.epam.lab.test.GmailTest:28 - login test pass
+2017-09-28 19:05:36,063  INFO com.epam.lab.test.GmailTest:35 - Message is in SendPage test pass
+2017-09-28 19:05:37,453  INFO com.epam.lab.test.GmailTest:37 - MessageDeleting test pass
+2017-09-28 19:05:37,454  INFO com.epam.lab.test.GmailTest:38 - test ends
+2017-09-28 19:05:37,455  INFO com.epam.lab.util.TestNGListener:22 - test passed null during time 28793
+2017-09-28 19:05:39,598  INFO com.epam.lab.test.GmailTest:32 - MessageSending test pass
+2017-09-28 19:05:40,320  INFO com.epam.lab.test.GmailTest:35 - Message is in SendPage test pass
+2017-09-28 19:05:41,106  INFO com.epam.lab.test.GmailTest:37 - MessageDeleting test pass
+2017-09-28 19:05:41,107  INFO com.epam.lab.test.GmailTest:38 - test ends
+2017-09-28 19:05:41,107  INFO com.epam.lab.util.TestNGListener:22 - test passed null during time 32444
+2017-09-28 19:05:42,072  INFO com.epam.lab.test.DataProviderClass:42 - dataProvider starts
+2017-09-28 19:05:42,119  INFO com.epam.lab.test.DataProviderClass:46 - data was successfully readed.
+2017-09-28 19:05:42,119  INFO com.epam.lab.test.DataProviderClass:52 - dataProvider ends
+2017-09-28 19:05:42,122  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 19:05:42,122  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 19:05:42,123  INFO com.epam.lab.test.GmailTestThatFails:26 - test stars
+2017-09-28 19:05:42,123  INFO com.epam.lab.test.GmailTestThatFails:26 - test stars
+2017-09-28 19:06:04,414  INFO com.epam.lab.util.TestNGListener:27 - test failed null
+2017-09-28 19:06:06,095  INFO com.epam.lab.util.TestNGListener:27 - test failed null
+2017-09-28 19:06:07,049  INFO com.epam.lab.util.TestNGListener:47 - test ends Gmail Test onThu Sep 28 19:06:07 EEST 2017
+2017-09-28 19:09:07,912  INFO com.epam.lab.util.TestNGListener:42 - test starts Gmail Test on Thu Sep 28 19:09:07 EEST 2017
+2017-09-28 19:09:07,970  INFO com.epam.lab.test.DataProviderClass:42 - dataProvider starts
+2017-09-28 19:09:11,141  INFO com.epam.lab.test.DataProviderClass:46 - data was successfully readed.
+2017-09-28 19:09:11,142  INFO com.epam.lab.test.DataProviderClass:52 - dataProvider ends
+2017-09-28 19:09:11,165  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 19:09:11,165  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 19:09:11,171  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 19:09:11,171  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 19:09:31,626  INFO com.epam.lab.test.GmailTest:28 - login test pass
+2017-09-28 19:09:32,028  INFO com.epam.lab.test.GmailTest:28 - login test pass
+2017-09-28 19:09:37,385  INFO com.epam.lab.test.GmailTest:32 - MessageSending test pass
+2017-09-28 19:09:38,470  INFO com.epam.lab.test.GmailTest:35 - Message is in SendPage test pass
+2017-09-28 19:09:39,629  INFO com.epam.lab.test.GmailTest:37 - MessageDeleting test pass
+2017-09-28 19:09:39,629  INFO com.epam.lab.test.GmailTest:38 - test ends
+2017-09-28 19:09:39,630  INFO com.epam.lab.util.TestNGListener:22 - test passed null during time 28466
+2017-09-28 19:09:40,285  INFO com.epam.lab.test.GmailTest:32 - MessageSending test pass
+2017-09-28 19:09:41,153  INFO com.epam.lab.test.GmailTest:35 - Message is in SendPage test pass
+2017-09-28 19:09:41,920  INFO com.epam.lab.test.GmailTest:37 - MessageDeleting test pass
+2017-09-28 19:09:41,921  INFO com.epam.lab.test.GmailTest:38 - test ends
+2017-09-28 19:09:41,921  INFO com.epam.lab.util.TestNGListener:22 - test passed null during time 30757
+2017-09-28 19:09:42,855  INFO com.epam.lab.test.DataProviderClass:42 - dataProvider starts
+2017-09-28 19:09:42,903  INFO com.epam.lab.test.DataProviderClass:46 - data was successfully readed.
+2017-09-28 19:09:42,904  INFO com.epam.lab.test.DataProviderClass:52 - dataProvider ends
+2017-09-28 19:09:42,905  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 19:09:42,905  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 19:09:42,906  INFO com.epam.lab.test.GmailTestThatFails:26 - test stars
+2017-09-28 19:09:42,906  INFO com.epam.lab.test.GmailTestThatFails:26 - test stars
+2017-09-28 19:10:02,477  INFO com.epam.lab.util.TestNGListener:27 - test failed null
+2017-09-28 19:10:04,021  INFO com.epam.lab.util.TestNGListener:27 - test failed null
+2017-09-28 19:10:04,882  INFO com.epam.lab.util.TestNGListener:47 - test ends Gmail Test onThu Sep 28 19:10:04 EEST 2017
+2017-09-28 19:12:20,061  INFO com.epam.lab.util.TestNGListener:42 - test starts Gmail Test on Thu Sep 28 19:12:20 EEST 2017
+2017-09-28 19:12:20,091  INFO com.epam.lab.test.DataProviderClass:42 - dataProvider starts
+2017-09-28 19:12:21,851  INFO com.epam.lab.test.DataProviderClass:46 - data was successfully readed.
+2017-09-28 19:12:21,851  INFO com.epam.lab.test.DataProviderClass:52 - dataProvider ends
+2017-09-28 19:12:21,869  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 19:12:21,869  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 19:12:21,874  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 19:12:21,874  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 19:12:46,069  INFO com.epam.lab.test.GmailTest:28 - login test pass
+2017-09-28 19:12:47,465  INFO com.epam.lab.test.GmailTest:28 - login test pass
+2017-09-28 19:12:49,267  INFO com.epam.lab.test.GmailTest:32 - MessageSending test pass
+2017-09-28 19:12:50,228  INFO com.epam.lab.test.GmailTest:35 - Message is in SendPage test pass
+2017-09-28 19:12:50,869  INFO com.epam.lab.test.GmailTest:32 - MessageSending test pass
+2017-09-28 19:12:51,132  INFO com.epam.lab.test.GmailTest:37 - MessageDeleting test pass
+2017-09-28 19:12:51,132  INFO com.epam.lab.test.GmailTest:38 - test ends
+2017-09-28 19:12:51,133  INFO com.epam.lab.util.TestNGListener:22 - test passed null during time 29265
+2017-09-28 19:12:51,801  INFO com.epam.lab.test.GmailTest:35 - Message is in SendPage test pass
+2017-09-28 19:12:52,776  INFO com.epam.lab.test.GmailTest:37 - MessageDeleting test pass
+2017-09-28 19:12:52,777  INFO com.epam.lab.test.GmailTest:38 - test ends
+2017-09-28 19:12:52,777  INFO com.epam.lab.util.TestNGListener:22 - test passed null during time 30909
+2017-09-28 19:12:53,773  INFO com.epam.lab.test.DataProviderClass:42 - dataProvider starts
+2017-09-28 19:12:53,817  INFO com.epam.lab.test.DataProviderClass:46 - data was successfully readed.
+2017-09-28 19:12:53,818  INFO com.epam.lab.test.DataProviderClass:52 - dataProvider ends
+2017-09-28 19:12:53,819  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 19:12:53,819  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 19:12:53,820  INFO com.epam.lab.test.GmailTestThatFails:26 - test stars
+2017-09-28 19:12:53,820  INFO com.epam.lab.test.GmailTestThatFails:26 - test stars
+2017-09-28 19:13:14,477  INFO com.epam.lab.util.TestNGListener:27 - test failed null
+2017-09-28 19:13:15,200  INFO com.epam.lab.util.TestNGListener:27 - test failed null
+2017-09-28 19:13:16,123  INFO com.epam.lab.util.TestNGListener:47 - test ends Gmail Test onThu Sep 28 19:13:16 EEST 2017
+2017-09-28 19:17:19,288  INFO com.epam.lab.util.TestNGListener:42 - test starts Gmail Test on Thu Sep 28 19:17:19 EEST 2017
+2017-09-28 19:17:19,351  INFO com.epam.lab.test.DataProviderClass:25 - dataProvider starts
+2017-09-28 19:17:19,354  INFO com.epam.lab.util.DOMParser:29 - DOM parser starts
+2017-09-28 19:17:20,777  INFO com.epam.lab.util.DOMParser:45 - DOM parser ends
+2017-09-28 19:17:20,777  INFO com.epam.lab.util.DOMParser:60 - DOM parser starts
+2017-09-28 19:17:20,784  INFO com.epam.lab.util.DOMParser:76 - DOM parser ends
+2017-09-28 19:17:20,788  INFO com.epam.lab.test.DataProviderClass:30 - data was successfully readed.
+2017-09-28 19:17:20,789  INFO com.epam.lab.test.DataProviderClass:36 - dataProvider ends
+2017-09-28 19:17:20,833  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 19:17:20,836  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 19:17:20,841  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 19:17:20,857  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 19:17:43,596  INFO com.epam.lab.test.GmailTest:28 - login test pass
+2017-09-28 19:17:47,748  INFO com.epam.lab.test.GmailTest:28 - login test pass
+2017-09-28 19:17:47,944  INFO com.epam.lab.test.GmailTest:32 - MessageSending test pass
+2017-09-28 19:17:49,760  INFO com.epam.lab.test.GmailTest:35 - Message is in SendPage test pass
+2017-09-28 19:17:51,259  INFO com.epam.lab.test.GmailTest:37 - MessageDeleting test pass
+2017-09-28 19:17:51,259  INFO com.epam.lab.test.GmailTest:38 - test ends
+2017-09-28 19:17:51,260  INFO com.epam.lab.util.TestNGListener:22 - test passed null during time 30427
+2017-09-28 19:17:51,986  INFO com.epam.lab.test.GmailTest:32 - MessageSending test pass
+2017-09-28 19:17:52,894  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 19:17:52,895  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 19:17:52,943  INFO com.epam.lab.test.GmailTest:35 - Message is in SendPage test pass
+2017-09-28 19:17:54,809  INFO com.epam.lab.test.GmailTest:37 - MessageDeleting test pass
+2017-09-28 19:17:54,809  INFO com.epam.lab.test.GmailTest:38 - test ends
+2017-09-28 19:17:54,810  INFO com.epam.lab.util.TestNGListener:22 - test passed null during time 33974
+2017-09-28 19:17:56,297  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 19:17:56,298  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 19:18:13,497  INFO com.epam.lab.test.GmailTest:28 - login test pass
+2017-09-28 19:18:13,963  INFO com.epam.lab.test.GmailTest:28 - login test pass
+2017-09-28 19:18:22,973  INFO com.epam.lab.test.GmailTest:32 - MessageSending test pass
+2017-09-28 19:18:23,253  INFO com.epam.lab.test.GmailTest:32 - MessageSending test pass
+2017-09-28 19:18:23,879  INFO com.epam.lab.test.GmailTest:35 - Message is in SendPage test pass
+2017-09-28 19:18:24,199  INFO com.epam.lab.test.GmailTest:35 - Message is in SendPage test pass
+2017-09-28 19:18:25,096  INFO com.epam.lab.test.GmailTest:37 - MessageDeleting test pass
+2017-09-28 19:18:25,097  INFO com.epam.lab.test.GmailTest:38 - test ends
+2017-09-28 19:18:25,097  INFO com.epam.lab.util.TestNGListener:22 - test passed null during time 28800
+2017-09-28 19:18:25,502  INFO com.epam.lab.test.GmailTest:37 - MessageDeleting test pass
+2017-09-28 19:18:25,503  INFO com.epam.lab.test.GmailTest:38 - test ends
+2017-09-28 19:18:25,503  INFO com.epam.lab.util.TestNGListener:22 - test passed null during time 32609
+2017-09-28 19:18:26,244  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 19:18:26,245  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 19:18:44,846  INFO com.epam.lab.test.GmailTest:28 - login test pass
+2017-09-28 19:18:50,017  INFO com.epam.lab.test.GmailTest:32 - MessageSending test pass
+2017-09-28 19:18:50,792  INFO com.epam.lab.test.GmailTest:35 - Message is in SendPage test pass
+2017-09-28 19:18:51,533  INFO com.epam.lab.test.GmailTest:37 - MessageDeleting test pass
+2017-09-28 19:18:51,534  INFO com.epam.lab.test.GmailTest:38 - test ends
+2017-09-28 19:18:51,534  INFO com.epam.lab.util.TestNGListener:22 - test passed null during time 25290
+2017-09-28 19:18:52,525  INFO com.epam.lab.test.DataProviderClass:25 - dataProvider starts
+2017-09-28 19:18:52,526  INFO com.epam.lab.util.DOMParser:29 - DOM parser starts
+2017-09-28 19:18:52,530  INFO com.epam.lab.util.DOMParser:45 - DOM parser ends
+2017-09-28 19:18:52,530  INFO com.epam.lab.util.DOMParser:60 - DOM parser starts
+2017-09-28 19:18:52,532  INFO com.epam.lab.util.DOMParser:76 - DOM parser ends
+2017-09-28 19:18:52,533  INFO com.epam.lab.test.DataProviderClass:30 - data was successfully readed.
+2017-09-28 19:18:52,533  INFO com.epam.lab.test.DataProviderClass:36 - dataProvider ends
+2017-09-28 19:18:52,534  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 19:18:52,534  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 19:18:52,535  INFO com.epam.lab.test.GmailTestThatFails:26 - test stars
+2017-09-28 19:18:52,535  INFO com.epam.lab.test.GmailTestThatFails:26 - test stars
+2017-09-28 19:19:13,327  INFO com.epam.lab.util.TestNGListener:27 - test failed null
+2017-09-28 19:19:14,103  INFO com.epam.lab.util.TestNGListener:27 - test failed null
+2017-09-28 19:19:14,405  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 19:19:14,406  INFO com.epam.lab.test.GmailTestThatFails:26 - test stars
+2017-09-28 19:19:15,095  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 19:19:15,096  INFO com.epam.lab.test.GmailTestThatFails:26 - test stars
+2017-09-28 19:19:36,808  INFO com.epam.lab.util.TestNGListener:27 - test failed null
+2017-09-28 21:10:11,488  INFO com.epam.lab.util.TestNGListener:42 - test starts Gmail Test on Thu Sep 28 21:10:11 EEST 2017
+2017-09-28 21:10:11,562  INFO com.epam.lab.test.DataProviderClass:42 - dataProvider starts
+2017-09-28 21:10:13,306  INFO com.epam.lab.test.DataProviderClass:46 - data was successfully readed.
+2017-09-28 21:10:13,306  INFO com.epam.lab.test.DataProviderClass:52 - dataProvider ends
+2017-09-28 21:10:13,325  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 21:10:13,325  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 21:10:13,331  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 21:10:13,331  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 21:11:28,479  INFO com.epam.lab.util.TestNGListener:27 - test failed null
+2017-09-28 21:11:34,229  INFO com.epam.lab.test.GmailTest:28 - login test pass
+2017-09-28 21:11:48,281  INFO com.epam.lab.test.GmailTest:32 - MessageSending test pass
+2017-09-28 21:11:49,305  INFO com.epam.lab.test.GmailTest:35 - Message is in SendPage test pass
+2017-09-28 21:11:49,959  INFO com.epam.lab.test.GmailTest:37 - MessageDeleting test pass
+2017-09-28 21:11:49,960  INFO com.epam.lab.test.GmailTest:38 - test ends
+2017-09-28 21:11:49,960  INFO com.epam.lab.util.TestNGListener:22 - test passed null during time 96637
+2017-09-28 21:11:50,996  INFO com.epam.lab.test.DataProviderClass:42 - dataProvider starts
+2017-09-28 21:11:51,037  INFO com.epam.lab.test.DataProviderClass:46 - data was successfully readed.
+2017-09-28 21:11:51,037  INFO com.epam.lab.test.DataProviderClass:52 - dataProvider ends
+2017-09-28 21:11:51,039  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 21:11:51,039  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 21:11:51,039  INFO com.epam.lab.test.GmailTestThatFails:26 - test stars
+2017-09-28 21:11:51,039  INFO com.epam.lab.test.GmailTestThatFails:26 - test stars
+2017-09-28 21:12:48,300  INFO com.epam.lab.util.TestNGListener:27 - test failed null
+2017-09-28 21:13:06,048  INFO com.epam.lab.util.TestNGListener:27 - test failed null
+2017-09-28 21:13:06,948  INFO com.epam.lab.util.TestNGListener:47 - test ends Gmail Test onThu Sep 28 21:13:06 EEST 2017
+2017-09-28 21:13:44,238  INFO com.epam.lab.util.TestNGListener:42 - test starts Gmail Test on Thu Sep 28 21:13:44 EEST 2017
+2017-09-28 21:13:44,266  INFO com.epam.lab.test.DataProviderClass:42 - dataProvider starts
+2017-09-28 21:13:45,863  INFO com.epam.lab.test.DataProviderClass:46 - data was successfully readed.
+2017-09-28 21:13:45,863  INFO com.epam.lab.test.DataProviderClass:52 - dataProvider ends
+2017-09-28 21:13:45,894  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 21:13:45,894  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 21:13:45,894  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 21:13:45,894  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 21:14:54,466  INFO com.epam.lab.util.TestNGListener:42 - test starts Gmail Test on Thu Sep 28 21:14:54 EEST 2017
+2017-09-28 21:14:54,497  INFO com.epam.lab.test.DataProviderClass:42 - dataProvider starts
+2017-09-28 21:14:56,015  INFO com.epam.lab.test.DataProviderClass:46 - data was successfully readed.
+2017-09-28 21:14:56,015  INFO com.epam.lab.test.DataProviderClass:52 - dataProvider ends
+2017-09-28 21:14:56,037  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 21:14:56,037  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 21:14:56,037  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 21:14:56,037  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 21:15:43,580  INFO com.epam.lab.util.TestNGListener:27 - test failed null
+2017-09-28 21:15:44,362  INFO com.epam.lab.util.TestNGListener:27 - test failed null
+2017-09-28 21:15:45,326  INFO com.epam.lab.test.DataProviderClass:42 - dataProvider starts
+2017-09-28 21:15:45,364  INFO com.epam.lab.test.DataProviderClass:46 - data was successfully readed.
+2017-09-28 21:15:45,364  INFO com.epam.lab.test.DataProviderClass:52 - dataProvider ends
+2017-09-28 21:15:45,364  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 21:15:45,364  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 21:15:45,364  INFO com.epam.lab.test.GmailTestThatFails:26 - test stars
+2017-09-28 21:15:45,364  INFO com.epam.lab.test.GmailTestThatFails:26 - test stars
+2017-09-28 21:16:31,325  INFO com.epam.lab.util.TestNGListener:42 - test starts Gmail Test on Thu Sep 28 21:16:31 EEST 2017
+2017-09-28 21:16:31,347  INFO com.epam.lab.test.DataProviderClass:42 - dataProvider starts
+2017-09-28 21:16:32,962  INFO com.epam.lab.test.DataProviderClass:46 - data was successfully readed.
+2017-09-28 21:16:32,962  INFO com.epam.lab.test.DataProviderClass:52 - dataProvider ends
+2017-09-28 21:16:32,977  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 21:16:32,977  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 21:16:32,993  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 21:16:32,993  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 21:17:03,089  INFO com.epam.lab.util.TestNGListener:27 - test failed null
+2017-09-28 21:17:04,132  INFO com.epam.lab.util.TestNGListener:27 - test failed null
+2017-09-28 21:17:04,816  INFO com.epam.lab.test.DataProviderClass:42 - dataProvider starts
+2017-09-28 21:17:04,885  INFO com.epam.lab.test.DataProviderClass:46 - data was successfully readed.
+2017-09-28 21:17:04,885  INFO com.epam.lab.test.DataProviderClass:52 - dataProvider ends
+2017-09-28 21:17:04,885  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 21:17:04,885  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 21:17:04,885  INFO com.epam.lab.test.GmailTestThatFails:26 - test stars
+2017-09-28 21:17:04,885  INFO com.epam.lab.test.GmailTestThatFails:26 - test stars
+2017-09-28 21:17:43,275  INFO com.epam.lab.util.TestNGListener:42 - test starts Gmail Test on Thu Sep 28 21:17:43 EEST 2017
+2017-09-28 21:17:43,301  INFO com.epam.lab.test.DataProviderClass:42 - dataProvider starts
+2017-09-28 21:17:44,810  INFO com.epam.lab.test.DataProviderClass:46 - data was successfully readed.
+2017-09-28 21:17:44,810  INFO com.epam.lab.test.DataProviderClass:52 - dataProvider ends
+2017-09-28 21:17:44,831  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 21:17:44,831  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 21:17:44,838  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 21:17:44,838  INFO com.epam.lab.test.GmailTest:25 - test stars
+2017-09-28 21:18:09,797  INFO com.epam.lab.test.GmailTest:28 - login test pass
+2017-09-28 21:18:11,410  INFO com.epam.lab.test.GmailTest:28 - login test pass
+2017-09-28 21:18:14,970  INFO com.epam.lab.test.GmailTest:32 - MessageSending test pass
+2017-09-28 21:18:15,902  INFO com.epam.lab.test.GmailTest:35 - Message is in SendPage test pass
+2017-09-28 21:18:16,680  INFO com.epam.lab.test.GmailTest:37 - MessageDeleting test pass
+2017-09-28 21:18:16,680  INFO com.epam.lab.test.GmailTest:38 - test ends
+2017-09-28 21:18:16,681  INFO com.epam.lab.util.TestNGListener:22 - test passed null during time 31851
+2017-09-28 21:18:19,388  INFO com.epam.lab.test.GmailTest:32 - MessageSending test pass
+2017-09-28 21:18:20,109  INFO com.epam.lab.test.GmailTest:35 - Message is in SendPage test pass
+2017-09-28 21:18:20,764  INFO com.epam.lab.test.GmailTest:37 - MessageDeleting test pass
+2017-09-28 21:18:20,764  INFO com.epam.lab.test.GmailTest:38 - test ends
+2017-09-28 21:18:20,765  INFO com.epam.lab.util.TestNGListener:22 - test passed null during time 35934
+2017-09-28 21:18:21,711  INFO com.epam.lab.test.DataProviderClass:42 - dataProvider starts
+2017-09-28 21:18:21,746  INFO com.epam.lab.test.DataProviderClass:46 - data was successfully readed.
+2017-09-28 21:18:21,747  INFO com.epam.lab.test.DataProviderClass:52 - dataProvider ends
+2017-09-28 21:18:21,748  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 21:18:21,748  INFO com.epam.lab.util.TestNGListener:17 - test starts null
+2017-09-28 21:18:21,748  INFO com.epam.lab.test.GmailTestThatFails:26 - test stars
+2017-09-28 21:18:21,748  INFO com.epam.lab.test.GmailTestThatFails:26 - test stars
+2017-09-28 21:18:46,751  INFO com.epam.lab.util.TestNGListener:27 - test failed null
+2017-09-28 21:18:49,154  INFO com.epam.lab.util.TestNGListener:27 - test failed null
+2017-09-28 21:18:50,093  INFO com.epam.lab.util.TestNGListener:47 - test ends Gmail Test onThu Sep 28 21:18:50 EEST 2017
